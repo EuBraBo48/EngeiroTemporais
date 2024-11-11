@@ -1,0 +1,741 @@
+[gd_scene load_steps=32 format=4 uid="uid://b2gln5m6fuonb"]
+
+[ext_resource type="Script" path="res://Scrips/menu.gd" id="1_iu3ra"]
+[ext_resource type="FontFile" uid="uid://c8but0or4tsjr" path="res://Sprits/EquipmentPro.otf" id="2_bya8w"]
+[ext_resource type="Texture2D" uid="uid://dsrmorbu6wu7y" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/talisMapDecoração/PredioTilemap_5.png" id="3_4lbsw"]
+[ext_resource type="FontFile" uid="uid://mriu62pgl3mb" path="res://Sprits/MatchupPro.otf" id="3_8svlr"]
+[ext_resource type="AudioStream" uid="uid://b6v28u5ot682f" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/Musicas/retroindiejosh_stasis.ogg" id="4_21pi2"]
+[ext_resource type="Texture2D" uid="uid://die58agbfymrm" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/ChaoDoQuarto.png" id="4_ax2i2"]
+[ext_resource type="Texture2D" uid="uid://cyqx1sjik7hma" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Selection_2024-07-20T11.04.52.png" id="5_3y0iv"]
+[ext_resource type="Texture2D" uid="uid://df1ycdgxdqjp5" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Selection_2024-07-20T11.08.07.png" id="6_xt600"]
+[ext_resource type="Texture2D" uid="uid://dw3ud0f848qci" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Selection_2024-07-20T11.26.41.png" id="7_cqrjs"]
+[ext_resource type="Texture2D" uid="uid://bbxr55iyjqf4g" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Plataforma.png" id="8_q8plg"]
+[ext_resource type="Texture2D" uid="uid://b6ux0k3yd24rq" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/TetoDoQuarto_1-1.png" id="9_jjtwh"]
+[ext_resource type="Texture2D" uid="uid://civ5mbgsl0tld" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chãoDoC1.png" id="10_al0ji"]
+[ext_resource type="Texture2D" uid="uid://b3wo4i5ibc1n7" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/talisMapDecoração/BackgroundQuarto_6-1.png" id="11_iog31"]
+[ext_resource type="Texture2D" uid="uid://6lhet3ps20ii" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chão1.png" id="12_s4bfe"]
+[ext_resource type="Texture2D" uid="uid://dssg6ijirigj6" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chão2.png" id="13_c1pmq"]
+[ext_resource type="Texture2D" uid="uid://bwfq30k03sqx0" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chão3.png" id="14_d6lrr"]
+[ext_resource type="Texture2D" uid="uid://gv6bue2gyd17" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/backgraunds/Background_6.png" id="15_k8fux"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_u6qvp"]
+texture = ExtResource("3_4lbsw")
+texture_region_size = Vector2i(32, 32)
+3:1/0 = 0
+4:1/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8x8x0"]
+texture = ExtResource("4_ax2i2")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3pxfw"]
+texture = ExtResource("5_3y0iv")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+10:0/0 = 0
+11:0/0 = 0
+12:0/0 = 0
+13:0/0 = 0
+14:0/0 = 0
+15:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+11:1/0 = 0
+12:1/0 = 0
+13:1/0 = 0
+14:1/0 = 0
+15:1/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8u3fm"]
+texture = ExtResource("6_xt600")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+10:0/0 = 0
+11:0/0 = 0
+12:0/0 = 0
+13:0/0 = 0
+14:0/0 = 0
+15:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+11:1/0 = 0
+12:1/0 = 0
+13:1/0 = 0
+14:1/0 = 0
+15:1/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dlfmd"]
+texture = ExtResource("7_cqrjs")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+10:0/0 = 0
+11:0/0 = 0
+12:0/0 = 0
+13:0/0 = 0
+14:0/0 = 0
+15:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+11:1/0 = 0
+12:1/0 = 0
+13:1/0 = 0
+14:1/0 = 0
+15:1/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_e4otd"]
+texture = ExtResource("8_q8plg")
+texture_region_size = Vector2i(32, 32)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_k8kai"]
+texture = ExtResource("9_jjtwh")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_euoux"]
+texture = ExtResource("10_al0ji")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+0:1/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dgcf1"]
+texture = ExtResource("11_iog31")
+texture_region_size = Vector2i(32, 32)
+0:2/0 = 0
+2:2/0 = 0
+5:2/0 = 0
+7:2/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+7:6/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t608g"]
+texture = ExtResource("12_s4bfe")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_obtop"]
+texture = ExtResource("13_c1pmq")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+10:0/0 = 0
+11:0/0 = 0
+12:0/0 = 0
+13:0/0 = 0
+14:0/0 = 0
+15:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+11:1/0 = 0
+12:1/0 = 0
+13:1/0 = 0
+14:1/0 = 0
+15:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+9:2/0 = 0
+10:2/0 = 0
+11:2/0 = 0
+12:2/0 = 0
+13:2/0 = 0
+14:2/0 = 0
+15:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+8:3/0 = 0
+9:3/0 = 0
+10:3/0 = 0
+11:3/0 = 0
+12:3/0 = 0
+13:3/0 = 0
+14:3/0 = 0
+15:3/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vvgra"]
+texture = ExtResource("14_d6lrr")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+10:0/0 = 0
+11:0/0 = 0
+12:0/0 = 0
+13:0/0 = 0
+14:0/0 = 0
+15:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+11:1/0 = 0
+12:1/0 = 0
+13:1/0 = 0
+14:1/0 = 0
+15:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+9:2/0 = 0
+10:2/0 = 0
+11:2/0 = 0
+12:2/0 = 0
+13:2/0 = 0
+14:2/0 = 0
+15:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+8:3/0 = 0
+9:3/0 = 0
+10:3/0 = 0
+11:3/0 = 0
+12:3/0 = 0
+13:3/0 = 0
+14:3/0 = 0
+15:3/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hwvmq"]
+texture = ExtResource("10_al0ji")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+0:1/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_v6w5j"]
+tile_size = Vector2i(32, 32)
+uv_clipping = true
+sources/1 = SubResource("TileSetAtlasSource_8x8x0")
+sources/2 = SubResource("TileSetAtlasSource_e4otd")
+sources/3 = SubResource("TileSetAtlasSource_k8kai")
+sources/4 = SubResource("TileSetAtlasSource_euoux")
+sources/5 = SubResource("TileSetAtlasSource_dgcf1")
+sources/0 = SubResource("TileSetAtlasSource_u6qvp")
+sources/6 = SubResource("TileSetAtlasSource_t608g")
+sources/7 = SubResource("TileSetAtlasSource_obtop")
+sources/8 = SubResource("TileSetAtlasSource_vvgra")
+sources/9 = SubResource("TileSetAtlasSource_hwvmq")
+sources/10 = SubResource("TileSetAtlasSource_3pxfw")
+sources/11 = SubResource("TileSetAtlasSource_8u3fm")
+sources/12 = SubResource("TileSetAtlasSource_dlfmd")
+
+[node name="MainMenu" type="Control"]
+process_mode = 3
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_iu3ra")
+
+[node name="fundo" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.054902, 0, 0, 0.254902)
+
+[node name="Menu" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -21.0
+offset_right = 28.0
+offset_bottom = 12.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Start" type="Button" parent="Menu"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_bya8w")
+theme_override_font_sizes/font_size = 16
+text = "Start"
+
+[node name="Options" type="Button" parent="Menu"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_bya8w")
+theme_override_font_sizes/font_size = 16
+text = "Options"
+
+[node name="Crédito" type="Button" parent="Menu"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_bya8w")
+theme_override_font_sizes/font_size = 16
+text = "Crédito"
+
+[node name="Exit" type="Button" parent="Menu"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_bya8w")
+theme_override_font_sizes/font_size = 16
+text = "Exit
+"
+
+[node name="talisMap" type="Node2D" parent="Menu" groups=["pl"]]
+light_mask = 5
+visibility_layer = 5
+z_index = 1
+position = Vector2(-200, -60)
+
+[node name="chão" type="TileMapLayer" parent="Menu/talisMap"]
+use_parent_material = true
+tile_map_data = PackedByteArray("AAD/////CgAAAAAAAAD//wAACgAAAAEAAAAAAP//CgABAAAAAAAAAAAACgABAAEAAAABAP//CgACAAAAAAABAAAACgACAAEAAAACAP//CgADAAAAAAACAAAACgADAAEAAAADAP//CgAEAAAAAAADAAAACgAEAAEAAAAEAP//CgAFAAAAAAAEAAAACgAFAAEAAAAFAP//CgAGAAAAAAAFAAAACgAGAAEAAAAGAP//CgAHAAAAAAAGAAAACgAHAAEAAAAHAP//CgAIAAAAAAAHAAAACgAIAAEAAAAIAP//CgAJAAAAAAAIAAAACgAJAAEAAAAJAP//CgAKAAAAAAAJAAAACgAKAAEAAAAKAP//CgALAAAAAAAKAAAACgALAAEAAAALAP//CgAMAAAAAAALAAAACgAMAAEAAAAMAP//CgANAAAAAAAMAAAACgANAAEAAAANAP//CgAOAAAAAAANAAAACgAOAAEAAAAOAP//CgAPAAAAAAAOAAAACgAPAAEAAAD//wcABgAAAAAAAAD//wgABgAAAAEAAAAAAAcABgABAAAAAAAAAAgABgABAAEAAAABAAcABgACAAAAAAABAAgABgACAAEAAAACAAcABgADAAAAAAACAAgABgADAAEAAAADAAcABgAEAAAAAAADAAgABgAEAAEAAAAEAAcABgAFAAAAAAAEAAgABgAFAAEAAAAFAAcABgAGAAAAAAAFAAgABgAGAAEAAAAGAAcABgAHAAAAAAAGAAgABgAHAAEAAAAHAAcABgAAAAAAAAAHAAgABgAAAAEAAAAIAAcABgABAAAAAAAIAAgABgABAAEAAAAJAAcABgACAAAAAAAJAAgABgACAAEAAAAKAAcABgADAAAAAAAKAAgABgADAAEAAAALAAcABgAEAAAAAAALAAgABgAEAAEAAAAMAAcABgAFAAAAAAAMAAgABgAFAAEAAAANAAcABgAGAAAAAAANAAgABgAGAAEAAAAOAAcABgAHAAAAAAAOAAgABgAHAAEAAAA=")
+tile_set = SubResource("TileSet_v6w5j")
+
+[node name="decoraçãoL" type="TileMapLayer" parent="Menu/talisMap"]
+use_parent_material = true
+tile_map_data = PackedByteArray("AAAFAAEAAAADAAEAAAAGAAEAAAAEAAEAAAADAAUAAAAAAAQAAAADAAYAAAAAAAUAAAAEAAUAAAABAAQAAAAEAAYAAAABAAUAAAAFAAUAAAACAAQAAAAFAAYAAAACAAUAAAAGAAUAAAADAAQAAAAGAAYAAAADAAUAAAAHAAUAAAAEAAQAAAAHAAYAAAAEAAUAAAAIAAUAAAAFAAQAAAAIAAYAAAAFAAUAAAAJAAYAAAAGAAUAAAALAAUAAAAAAAQAAAALAAYAAAAAAAUAAAAMAAUAAAABAAQAAAAMAAYAAAABAAUAAAA=")
+tile_set = SubResource("TileSet_v6w5j")
+
+[node name="Selection2024-07-20t11_04_02" type="Sprite2D" parent="Menu"]
+z_index = -1
+position = Vector2(28, 59.5)
+scale = Vector2(1.70313, 1.59668)
+texture = ExtResource("15_k8fux")
+
+[node name="options" type="Control" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="options"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Video" type="Button" parent="options/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_bya8w")
+text = "Video"
+
+[node name="Audio" type="Button" parent="options/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_bya8w")
+text = "Audio"
+
+[node name="BackFromOption" type="Button" parent="options"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -20.0
+offset_top = 66.0
+offset_right = 25.0
+offset_bottom = 97.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("2_bya8w")
+text = "Back"
+
+[node name="video" type="Control" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="video"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -41.5
+offset_top = -40.0
+offset_right = 41.5
+offset_bottom = 40.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Lebels" type="VBoxContainer" parent="video/HBoxContainer"]
+layout_mode = 2
+
+[node name="FullScreen" type="Label" parent="video/HBoxContainer/Lebels"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_8svlr")
+theme_override_font_sizes/font_size = 25
+text = "	FullScreen"
+
+[node name="Borderless" type="Label" parent="video/HBoxContainer/Lebels"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_8svlr")
+theme_override_font_sizes/font_size = 25
+text = "Borderless"
+
+[node name="Vsync" type="Label" parent="video/HBoxContainer/Lebels"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_8svlr")
+theme_override_font_sizes/font_size = 25
+text = "Vsync"
+
+[node name="Checkbox" type="VBoxContainer" parent="video/HBoxContainer"]
+layout_mode = 2
+
+[node name="FullScreen" type="CheckBox" parent="video/HBoxContainer/Checkbox"]
+layout_mode = 2
+
+[node name="Borderless" type="CheckBox" parent="video/HBoxContainer/Checkbox"]
+layout_mode = 2
+
+[node name="Vsync" type="CheckBox" parent="video/HBoxContainer/Checkbox"]
+layout_mode = 2
+
+[node name="BackFromVideo" type="Button" parent="video"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -22.0
+offset_top = -34.0
+offset_right = 23.0
+offset_bottom = -3.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("2_bya8w")
+text = "Back"
+
+[node name="Audio" type="Control" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Audio"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -116.0
+offset_top = -38.5
+offset_right = 116.0
+offset_bottom = 38.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Labls" type="VBoxContainer" parent="Audio/HBoxContainer"]
+layout_mode = 2
+
+[node name="Master" type="Label" parent="Audio/HBoxContainer/Labls"]
+layout_mode = 2
+size_flags_vertical = 6
+theme_override_fonts/font = ExtResource("3_8svlr")
+theme_override_font_sizes/font_size = 20
+text = "Master"
+
+[node name="Music" type="Label" parent="Audio/HBoxContainer/Labls"]
+layout_mode = 2
+size_flags_vertical = 6
+theme_override_fonts/font = ExtResource("3_8svlr")
+theme_override_font_sizes/font_size = 20
+text = "Music"
+
+[node name="Sound FX" type="Label" parent="Audio/HBoxContainer/Labls"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_8svlr")
+theme_override_font_sizes/font_size = 20
+text = "Sound FX"
+
+[node name="Slider" type="VBoxContainer" parent="Audio/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Master" type="HSlider" parent="Audio/HBoxContainer/Slider"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Music" type="HSlider" parent="Audio/HBoxContainer/Slider"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Sound FX" type="HSlider" parent="Audio/HBoxContainer/Slider"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="BackFromAudio" type="Button" parent="Audio"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -22.0
+offset_top = -34.0
+offset_right = 23.0
+offset_bottom = -3.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("2_bya8w")
+text = "Back"
+
+[node name="Crédito" type="Control" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="BackFromcredito" type="Button" parent="Crédito"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.945
+anchor_top = 1.0
+anchor_right = 0.945
+anchor_bottom = 1.0
+offset_left = -22.57
+offset_top = -33.0
+offset_right = 22.43
+offset_bottom = -2.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("2_bya8w")
+text = "Back"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Crédito"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -99.5
+offset_top = -168.0
+offset_right = 99.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Label" type="Label" parent="Crédito/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_fonts/font = ExtResource("2_bya8w")
+theme_override_font_sizes/font_size = 16
+text = "LUIGI: ROTEIRO, 
+VICTOR: AJUDANTE DO ROTEIRISTA, 
+NICOLAS:  PROGAMAÇÃO,
+MILLENA: PRODUÇÃO ARTISTICA,  
+GUILHERME: AJUDANTE GERAL, 
+YASMIN: MIDIA, 
+IZADORA: MIDIA
+Profesora Tereza, 
+Geloze:produção artisca "
+
+[node name="Label" type="Label" parent="Crédito"]
+layout_mode = 0
+offset_left = 139.0
+offset_top = 12.0
+offset_right = 243.0
+offset_bottom = 40.0
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_fonts/font = ExtResource("3_8svlr")
+theme_override_font_sizes/font_size = 34
+text = "Créditos"
+
+[node name="Selection2024-07-20t11_04_02" type="Sprite2D" parent="Crédito"]
+z_index = -1
+position = Vector2(218, 133)
+scale = Vector2(1.70313, 1.59668)
+texture = ExtResource("15_k8fux")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_21pi2")
+autoplay = true
+bus = &"Music"
+parameters/looping = true
+
+[connection signal="pressed" from="Menu/Start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="Menu/Options" to="." method="_on_options_pressed"]
+[connection signal="pressed" from="Menu/Crédito" to="." method="_on_crédito_pressed"]
+[connection signal="pressed" from="Menu/Exit" to="." method="_on_exit_pressed"]
+[connection signal="pressed" from="options/VBoxContainer/Video" to="." method="_on_video_pressed"]
+[connection signal="pressed" from="options/VBoxContainer/Audio" to="." method="_on_audio_pressed"]
+[connection signal="pressed" from="options/BackFromOption" to="." method="_on_back_from_option_pressed"]
+[connection signal="toggled" from="video/HBoxContainer/Checkbox/FullScreen" to="." method="_on_full_screen_toggled"]
+[connection signal="toggled" from="video/HBoxContainer/Checkbox/Borderless" to="." method="_on_borderless_toggled"]
+[connection signal="toggled" from="video/HBoxContainer/Checkbox/Vsync" to="." method="_on_vsync_toggled"]
+[connection signal="pressed" from="video/BackFromVideo" to="." method="_on_back_from_video_pressed"]
+[connection signal="value_changed" from="Audio/HBoxContainer/Slider/Master" to="." method="_on_master_value_changed"]
+[connection signal="value_changed" from="Audio/HBoxContainer/Slider/Music" to="." method="_on_music_value_changed"]
+[connection signal="value_changed" from="Audio/HBoxContainer/Slider/Sound FX" to="." method="_on_sound_fx_value_changed"]
+[connection signal="pressed" from="Audio/BackFromAudio" to="." method="_on_back_from_audio_pressed"]
+[connection signal="pressed" from="Crédito/BackFromcredito" to="." method="_on_back_fromcredito_pressed"]

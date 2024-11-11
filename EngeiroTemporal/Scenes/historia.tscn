@@ -1,0 +1,54 @@
+[gd_scene load_steps=9 format=3 uid="uid://bl85phu3qktv6"]
+
+[ext_resource type="Script" path="res://Scrips/historia.gd" id="1_rnlfc"]
+[ext_resource type="AudioStream" uid="uid://dabnki2uv2jq6" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/Musicas/retroindiejosh_mysterious-wave.ogg" id="3_ju5d4"]
+[ext_resource type="PackedScene" uid="uid://b2gln5m6fuonb" path="res://Scenes/menu.tscn" id="4_qn4gt"]
+[ext_resource type="Texture2D" uid="uid://s2nn8fwkg22k" path="res://Sprits/Metal Buttons Icons.png" id="5_rv41a"]
+[ext_resource type="PackedScene" uid="uid://c5wd5wjy6673e" path="res://Scenes/cutsceane.tscn" id="6_aaspf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_unpno"]
+size = Vector2(30, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wp6sk"]
+atlas = ExtResource("5_rv41a")
+region = Rect2(352, 288, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_feft1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wp6sk")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="historia" type="Node2D" node_paths=PackedStringArray("hud")]
+script = ExtResource("1_rnlfc")
+hud = NodePath("dialogo")
+
+[node name="dialogo" type="CanvasLayer" parent="."]
+
+[node name="menu" type="CanvasLayer" parent="."]
+
+[node name="MainMenu" parent="menu" instance=ExtResource("4_qn4gt")]
+visible = false
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="."]
+z_index = 1
+position = Vector2(380, 210)
+shape = SubResource("RectangleShape2D_unpno")
+action = "ui_select"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="TouchScreenButton"]
+position = Vector2(0, -1)
+sprite_frames = SubResource("SpriteFrames_feft1")
+
+[node name="Cutsceane" parent="." instance=ExtResource("6_aaspf")]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_ju5d4")
+autoplay = true
+bus = &"Music"
+parameters/looping = true

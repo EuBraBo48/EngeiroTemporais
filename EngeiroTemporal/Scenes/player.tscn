@@ -1,0 +1,281 @@
+[gd_scene load_steps=37 format=3 uid="uid://dc1xbsmpp5jwt"]
+
+[ext_resource type="Script" path="res://Scrips/player.gd" id="1_4juvy"]
+[ext_resource type="Texture2D" uid="uid://d15t8lka4nw3w" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/personages/TerezaAnimacoes_1.png" id="1_74n48"]
+[ext_resource type="Shader" path="res://Scrips/hit.gdshader" id="2_5ywyg"]
+[ext_resource type="Texture2D" uid="uid://dcr3taw8bpqkw" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/personages/TerezaAnimacoes_2.png" id="2_lcvfw"]
+[ext_resource type="Texture2D" uid="uid://hsu2usd0ebxt" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/personages/TerezaAnimacoes_3.png" id="3_gdr80"]
+[ext_resource type="Script" path="res://Scrips/stateMachines/StateMachine.gd" id="5_exo1k"]
+[ext_resource type="Script" path="res://Scrips/stateMachines/ide.gd" id="6_0b683"]
+[ext_resource type="Script" path="res://Scrips/stateMachines/rum.gd" id="7_2aast"]
+[ext_resource type="Script" path="res://Scrips/stateMachines/jump.gd" id="8_h0pnj"]
+[ext_resource type="AudioStream" uid="uid://bvu3vr2uw2yxs" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/Passos.ogg" id="9_dj6rx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j05n3"]
+size = Vector2(16, 44)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ld7n3"]
+shader = ExtResource("2_5ywyg")
+shader_parameter/active = false
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yuqp7"]
+atlas = ExtResource("1_74n48")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pyod2"]
+atlas = ExtResource("1_74n48")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6wojh"]
+atlas = ExtResource("1_74n48")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1lx10"]
+atlas = ExtResource("1_74n48")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m5gar"]
+atlas = ExtResource("2_lcvfw")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4vary"]
+atlas = ExtResource("2_lcvfw")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ypjx3"]
+atlas = ExtResource("2_lcvfw")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xeltc"]
+atlas = ExtResource("2_lcvfw")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vuryi"]
+atlas = ExtResource("2_lcvfw")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pme74"]
+atlas = ExtResource("2_lcvfw")
+region = Rect2(64, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_231fw"]
+atlas = ExtResource("2_lcvfw")
+region = Rect2(96, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ndob7"]
+atlas = ExtResource("2_lcvfw")
+region = Rect2(128, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n35fq"]
+atlas = ExtResource("2_lcvfw")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_17prs"]
+atlas = ExtResource("2_lcvfw")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sxt8y"]
+atlas = ExtResource("3_gdr80")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6f2t0"]
+atlas = ExtResource("3_gdr80")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3dcey"]
+atlas = ExtResource("3_gdr80")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ly7kq"]
+atlas = ExtResource("3_gdr80")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sn0uy"]
+atlas = ExtResource("3_gdr80")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g0plw"]
+atlas = ExtResource("3_gdr80")
+region = Rect2(64, 32, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_n1v5s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yuqp7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pyod2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6wojh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1lx10")
+}],
+"loop": true,
+"name": &"Ide",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m5gar")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4vary")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ypjx3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xeltc")
+}],
+"loop": false,
+"name": &"entrando",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vuryi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pme74")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_231fw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ndob7")
+}],
+"loop": true,
+"name": &"fim",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n35fq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_17prs")
+}],
+"loop": true,
+"name": &"pulado",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sxt8y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6f2t0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3dcey")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ly7kq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sn0uy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g0plw")
+}],
+"loop": true,
+"name": &"rum",
+"speed": 8.0
+}]
+
+[sub_resource type="Animation" id="Animation_q82fl"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:material:shader_parameter/active")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_6dth5"]
+resource_name = "hit"
+length = 0.4
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:material:shader_parameter/active")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.133333, 0.2, 0.366667),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [false, true, false]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_sm1sd"]
+_data = {
+"RESET": SubResource("Animation_q82fl"),
+"hit": SubResource("Animation_6dth5")
+}
+
+[node name="Player" type="CharacterBody2D" node_paths=PackedStringArray("_stateMachine") groups=["player"]]
+light_mask = 15
+visibility_layer = 4
+collision_layer = 2
+collision_mask = 13
+script = ExtResource("1_4juvy")
+velovi = 70.0
+_stateMachine = NodePath("StateMachine")
+regeneraVida = 7.0
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_j05n3")
+
+[node name="AnimTereza" type="AnimatedSprite2D" parent="."]
+material = SubResource("ShaderMaterial_ld7n3")
+position = Vector2(2, 1)
+scale = Vector2(1.27344, 1.39844)
+sprite_frames = SubResource("SpriteFrames_n1v5s")
+animation = &"entrando"
+frame = 3
+frame_progress = 1.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="AnimTereza"]
+libraries = {
+"": SubResource("AnimationLibrary_sm1sd")
+}
+
+[node name="StateMachine" type="Node" parent="." node_paths=PackedStringArray("stateInicial")]
+script = ExtResource("5_exo1k")
+stateInicial = NodePath("IDE")
+
+[node name="IDE" type="Node" parent="StateMachine"]
+script = ExtResource("6_0b683")
+
+[node name="rum" type="Node" parent="StateMachine"]
+script = ExtResource("7_2aast")
+
+[node name="jump" type="Node" parent="StateMachine"]
+script = ExtResource("8_h0pnj")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(-1, -1)
+offset = Vector2(0, -3)
+limit_left = 0
+limit_top = 0
+limit_right = 425
+limit_bottom = 240
+limit_smoothed = true
+editor_draw_limits = true
+editor_draw_drag_margin = true
+
+[node name="passos" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("9_dj6rx")
+bus = &"SoundFX"
+parameters/looping = true

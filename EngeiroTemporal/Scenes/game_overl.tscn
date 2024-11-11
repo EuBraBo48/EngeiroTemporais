@@ -1,0 +1,40 @@
+[gd_scene load_steps=5 format=3 uid="uid://knlyqm5apn2o"]
+
+[ext_resource type="Script" path="res://Scrips/game_overl.gd" id="1_1f8rj"]
+[ext_resource type="VideoStream" path="res://VIDEOS/10164.ogv" id="1_nhp5q"]
+[ext_resource type="Theme" uid="uid://bt4jyiv00rn2r" path="res://temapaFont.tres" id="3_gl370"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fnlub"]
+
+[node name="gameOverl" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_1f8rj")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+stream = ExtResource("1_nhp5q")
+autoplay = true
+loop = true
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.019
+anchor_bottom = 0.033
+offset_left = 184.0
+offset_top = 211.0
+offset_right = 252.906
+offset_bottom = 226.08
+theme = ExtResource("3_gl370")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_fnlub")
+text = "Recomeçar"
+flat = true
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

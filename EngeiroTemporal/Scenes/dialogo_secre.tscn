@@ -1,0 +1,107 @@
+[gd_scene load_steps=9 format=3 uid="uid://dqvo3id2e60py"]
+
+[ext_resource type="Script" path="res://Scrips/dialo_screen.gd" id="1_gnua8"]
+[ext_resource type="Texture2D" uid="uid://d3jlcdbc5tdeb" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/obejtos/Selection_2024-07-12T13.25.51.png" id="1_yfgdl"]
+[ext_resource type="FontFile" uid="uid://c8but0or4tsjr" path="res://Sprits/EquipmentPro.otf" id="3_hxfxd"]
+[ext_resource type="FontFile" uid="uid://mriu62pgl3mb" path="res://Sprits/MatchupPro.otf" id="4_2381j"]
+[ext_resource type="Script" path="res://Scrips/chfes/altenativas.gd" id="5_v6kcv"]
+[ext_resource type="Texture2D" uid="uid://d3kxxbtsbw26p" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/butão/e.png" id="6_uiqy5"]
+[ext_resource type="Texture2D" uid="uid://b1lprkwjbfj24" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/butão/d.png" id="7_jy6dh"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_1i6ek"]
+
+[node name="dialogoSecre" type="Control" node_paths=PackedStringArray("altenativ_as", "_name", "_dialog")]
+process_mode = 3
+physics_interpolation_mode = 1
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_gnua8")
+altenativ_as = NodePath("ALTENATIVAs")
+_name = NodePath("nomel")
+_dialog = NodePath("texto")
+
+[node name="fundo" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -4.0
+offset_top = -1.0
+offset_right = 7.0
+offset_bottom = -1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.054902, 0, 0, 0.254902)
+
+[node name="caixaDeDialogos" type="Sprite2D" parent="."]
+position = Vector2(224, 153)
+scale = Vector2(1.66055, 1.76562)
+texture = ExtResource("1_yfgdl")
+
+[node name="nomel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 115.0
+offset_top = 112.0
+offset_right = 152.0
+offset_bottom = 125.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 0
+theme_override_fonts/font = ExtResource("3_hxfxd")
+theme_override_font_sizes/font_size = 10
+text = "treta-vita"
+horizontal_alignment = 1
+
+[node name="texto" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 117.0
+offset_top = 147.0
+offset_right = 323.0
+offset_bottom = 181.0
+theme_override_fonts/normal_font = ExtResource("4_2381j")
+theme_override_font_sizes/normal_font_size = 16
+
+[node name="ALTENATIVAs" type="Node2D" parent="."]
+visible = false
+position = Vector2(-30, 20)
+script = ExtResource("5_v6kcv")
+
+[node name="alternativas" type="VBoxContainer" parent="ALTENATIVAs"]
+offset_left = 120.0
+offset_top = 19.0
+offset_right = 315.0
+offset_bottom = 88.0
+
+[node name="Button2" type="Button" parent="ALTENATIVAs/alternativas"]
+z_index = 4
+layout_mode = 2
+theme_override_fonts/font = ExtResource("4_2381j")
+theme_override_font_sizes/font_size = 13
+theme_override_styles/focus = SubResource("StyleBoxEmpty_1i6ek")
+text = "Sim, porque o lixo leva ao entupimento nos bueiros"
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="ALTENATIVAs/alternativas/Button2"]
+
+[node name="Button1" type="Button" parent="ALTENATIVAs/alternativas"]
+z_index = 2
+layout_mode = 2
+theme_override_fonts/font = ExtResource("4_2381j")
+theme_override_font_sizes/font_size = 16
+theme_override_styles/focus = SubResource("StyleBoxEmpty_1i6ek")
+text = "asdfghhgfdsaASDFGHFSA"
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="ALTENATIVAs/alternativas/Button1"]
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="."]
+position = Vector2(284, 88)
+scale = Vector2(0.939394, 1.09091)
+texture_normal = ExtResource("6_uiqy5")
+texture_pressed = ExtResource("7_jy6dh")
+action = "ui_accept"
+visibility_mode = 1
+
+[connection signal="pressed" from="ALTENATIVAs/alternativas/Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="ALTENATIVAs/alternativas/Button1" to="." method="_on_button_1_pressed"]

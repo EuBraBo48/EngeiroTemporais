@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bj8bklfvh5ab8"]
+
+[ext_resource type="Texture2D" uid="uid://bbxr55iyjqf4g" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Plataforma.png" id="1_hbeb8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1qmj2"]
+size = Vector2(94, 13)
+
+[node name="StaticBody2D" type="StaticBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(34, 3.5)
+shape = SubResource("RectangleShape2D_1qmj2")
+
+[node name="Plataforma" type="Sprite2D" parent="."]
+position = Vector2(34, 3)
+texture = ExtResource("1_hbeb8")

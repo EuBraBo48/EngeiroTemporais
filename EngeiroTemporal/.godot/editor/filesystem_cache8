@@ -1,0 +1,220 @@
+fc8a56933c4b1c8d796fdb8f7a9f9475
+::res://::1730904640
+default_bus_layout.tres::AudioBusLayout::8059462487453518865::1730226616::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1730865742::0::1::::<><>::
+README.md::TextFile::-1::1729444144::0::1::::<><>::
+temapaFont.tres::Theme::3780465433469737555::1730226616::0::1::::<><>::uid://mriu62pgl3mb::::res://Sprits/MatchupPro.otf
+temasDocehs.tres::Theme::6921846024241077916::1730751367::0::1::::<><>::
+::res://buildes/::1730865904
+::res://buildes/EngeiroTemporaisExecultavel/::1730863132
+::res://buildes/EngeiroTemporaisExecultavel/EngeiroTemporaisExecultavel/::1730863167
+::res://buildes/html/::1730898376
+index.apple-touch-icon.png::CompressedTexture2D::7261003418381578640::1730865747::1730898375::1::::<><>::
+index.icon.png::CompressedTexture2D::4207106035359705671::1730865747::1730898375::1::::<><>::
+index.png::CompressedTexture2D::8422547620418725752::1730865747::1730898376::1::::<><>::
+::res://buildes/JogoParaMonbile/::1730657352
+::res://Scenes/::1730903610
+animigo_1.tscn::PackedScene::5967293492976858385::1730658427::0::1::::<><>::res://Scrips/inimigo_1.gd<>uid://cr53tb1fco7y7::::res://Sprits/DesenhosDoJogoEngeirosTemporais/personages/gif_1-Sheet.png<>res://Scrips/hit.gdshader
+area_da_porta.tscn::PackedScene::7264305576140144065::1730754142::0::1::::<><>::res://Scrips/colisao.gd<>uid://c2ui1b76x3r0j::::res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/selecionar-1.ogg<>uid://s2nn8fwkg22k::::res://Sprits/Metal Buttons Icons.png
+arma.tscn::PackedScene::8428737281027694156::1730808295::0::1::::<><>::res://Scrips/arma.gd<>uid://h44xvamn0dc::::res://Sprits/DesenhosDoJogoEngeirosTemporais/obejtos/Selection_2024-10-15T15.09.25.png<>uid://dp7nipuj0etkm::::res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/Rifle de gelo.ogg
+bala.tscn::PackedScene::7793570599867045329::1730808445::0::1::::<><>::res://Scrips/bala.gd<>uid://cl8tq1dfo0w1u::::res://Sprits/DesenhosDoJogoEngeirosTemporais/obejtos/Selection_2024-10-15T15.08.54.png
+cana_do_inimigo_1.tscn::PackedScene::6254856986815665800::1730903607::0::1::::<><>::uid://dsrmorbu6wu7y::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/talisMapDecoração/PredioTilemap_5.png<>uid://civ5mbgsl0tld::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chãoDoC1.png<>uid://dw3ud0f848qci::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Selection_2024-07-20T11.26.41.png<>uid://dc1xbsmpp5jwt::::res://Scenes/player.tscn<>uid://jtwd05u3gy55::::res://Scenes/missao.tscn<>uid://dsc7coy1l3tui::::res://Scenes/arma.tscn<>uid://bj8bklfvh5ab8::::res://Scenes/Platafoma.tscn<>uid://chr8hlbiwknsn::::res://Scenes/plataforma que sobe.tscn<>uid://craupmrjwag62::::res://Scenes/animigo_1.tscn<>res://Scrips/dialogDosInimigos.gd<>uid://cw8wrlqyofuca::::res://Scenes/hud.tscn<>res://Scrips/gerador.gd<>uid://b2gln5m6fuonb::::res://Scenes/menu.tscn<>uid://bl0acoa2r32k2::::res://Scenes/mobile_buttons.tscn<>uid://dabnki2uv2jq6::::res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/Musicas/retroindiejosh_mysterious-wave.ogg<>uid://gv6bue2gyd17::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/backgraunds/Background_6.png
+cana_do_inimigo_2.tscn::PackedScene::3981322130588846272::1730903607::0::1::::<><>::uid://dsrmorbu6wu7y::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/talisMapDecoração/PredioTilemap_5.png<>uid://civ5mbgsl0tld::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chãoDoC1.png<>uid://dw3ud0f848qci::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Selection_2024-07-20T11.26.41.png<>uid://bj8bklfvh5ab8::::res://Scenes/Platafoma.tscn<>uid://chr8hlbiwknsn::::res://Scenes/plataforma que sobe.tscn<>uid://gv6bue2gyd17::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/backgraunds/Background_6.png<>uid://dc1xbsmpp5jwt::::res://Scenes/player.tscn<>uid://dsc7coy1l3tui::::res://Scenes/arma.tscn<>uid://cw8wrlqyofuca::::res://Scenes/hud.tscn<>uid://jtwd05u3gy55::::res://Scenes/missao.tscn<>res://Scrips/dialogDosInimigos.gd<>uid://jicvtrw48r7w::::res://Scenes/inimigo_2.tscn<>uid://b2gln5m6fuonb::::res://Scenes/menu.tscn<>res://Scrips/geradorCena2.gd<>uid://bl0acoa2r32k2::::res://Scenes/mobile_buttons.tscn<>uid://dabnki2uv2jq6::::res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/Musicas/retroindiejosh_mysterious-wave.ogg
+cana_do_inimigo_3.tscn::PackedScene::6827677268314374541::1730903608::0::1::::<><>::uid://dsrmorbu6wu7y::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/talisMapDecoração/PredioTilemap_5.png<>uid://civ5mbgsl0tld::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chãoDoC1.png<>uid://dw3ud0f848qci::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Selection_2024-07-20T11.26.41.png<>uid://bj8bklfvh5ab8::::res://Scenes/Platafoma.tscn<>uid://chr8hlbiwknsn::::res://Scenes/plataforma que sobe.tscn<>uid://gv6bue2gyd17::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/backgraunds/Background_6.png<>uid://dc1xbsmpp5jwt::::res://Scenes/player.tscn<>uid://dsc7coy1l3tui::::res://Scenes/arma.tscn<>uid://cw8wrlqyofuca::::res://Scenes/hud.tscn<>uid://jtwd05u3gy55::::res://Scenes/missao.tscn<>res://Scrips/dialogDosInimigos.gd<>uid://b2gln5m6fuonb::::res://Scenes/menu.tscn<>res://Scrips/gerador3.gd<>uid://bl0acoa2r32k2::::res://Scenes/mobile_buttons.tscn<>uid://dabnki2uv2jq6::::res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/Musicas/retroindiejosh_mysterious-wave.ogg
+cena_1.tscn::PackedScene::7733573170485612518::1730903610::0::1::::<><>::uid://dbq5b0stuslg0::::res://Scenes/area_da_porta.tscn<>uid://d1ucwwg3aix0b::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/backgraunds/BackgroundQuarto_5.png<>uid://die58agbfymrm::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/ChaoDoQuarto.png<>uid://bbxr55iyjqf4g::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Plataforma.png<>uid://b6ux0k3yd24rq::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/TetoDoQuarto_1-1.png<>uid://civ5mbgsl0tld::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chãoDoC1.png<>uid://b3wo4i5ibc1n7::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/talisMapDecoração/BackgroundQuarto_6-1.png<>uid://dc1xbsmpp5jwt::::res://Scenes/player.tscn<>uid://bl0acoa2r32k2::::res://Scenes/mobile_buttons.tscn<>uid://bwb6u55n48aik::::res://Scenes/IAdemar.tscn<>uid://b2gln5m6fuonb::::res://Scenes/menu.tscn<>uid://dkiqdq8qm27st::::res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/Musicas/retroindiejosh_fight-with-power.ogg
+cena_2.tscn::PackedScene::4497833281985292409::1730808445::0::1::::<><>::uid://csxrmmmm0slyg::::res://Scenes/fundo 1.tscn<>uid://dbq5b0stuslg0::::res://Scenes/area_da_porta.tscn<>uid://civ5mbgsl0tld::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chãoDoC1.png<>uid://ddsauoltdqr0e::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/talisMapDecoração/BackgroundQuarto_8.png<>uid://die58agbfymrm::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/ChaoDoQuarto.png<>uid://b3wo4i5ibc1n7::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/talisMapDecoração/BackgroundQuarto_6-1.png<>uid://dc1xbsmpp5jwt::::res://Scenes/player.tscn<>uid://jtwd05u3gy55::::res://Scenes/missao.tscn<>uid://chr8hlbiwknsn::::res://Scenes/plataforma que sobe.tscn<>uid://bj8bklfvh5ab8::::res://Scenes/Platafoma.tscn<>uid://bl0acoa2r32k2::::res://Scenes/mobile_buttons.tscn<>uid://civjclcg8wkcb::::res://Scenes/feramentas.tscn<>uid://bqqrfpirldmha::::res://Scenes/maquina_do_tempo.tscn<>uid://b2gln5m6fuonb::::res://Scenes/menu.tscn<>uid://b6v28u5ot682f::::res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/Musicas/retroindiejosh_stasis.ogg
+cutsceane2.tscn::PackedScene::683053447638321568::1730754044::0::1::::<><>::res://Scrips/cutsceane_2.gd<>uid://btd2ovrlgg4fi::::res://Sprits/DesenhosDoJogoEngeirosTemporais/obejtos/1339380970.png<>uid://pd25q6cvtmog::::res://Sprits/DesenhosDoJogoEngeirosTemporais/obejtos/terraNomal.png<>uid://bt4jyiv00rn2r::::res://temapaFont.tres<>uid://dtis72w157pg8::::res://Sprits/Xolonium-Regular.ttf<>uid://cju65xrbuntp0::::res://Sprits/3267e359b5cd0a71e7e7c715515e9ad4.jpg
+cutsceane.tscn::PackedScene::6924159882462010852::1730754044::0::1::::<><>::res://Scrips/cutsceane.gd<>uid://btd2ovrlgg4fi::::res://Sprits/DesenhosDoJogoEngeirosTemporais/obejtos/1339380970.png<>uid://pd25q6cvtmog::::res://Sprits/DesenhosDoJogoEngeirosTemporais/obejtos/terraNomal.png<>uid://bt4jyiv00rn2r::::res://temapaFont.tres<>uid://dtis72w157pg8::::res://Sprits/Xolonium-Regular.ttf<>uid://cju65xrbuntp0::::res://Sprits/3267e359b5cd0a71e7e7c715515e9ad4.jpg
+dialogo_secre.tscn::PackedScene::8326535948305708242::1730660731::0::1::::<><>::res://Scrips/dialo_screen.gd<>uid://d3jlcdbc5tdeb::::res://Sprits/DesenhosDoJogoEngeirosTemporais/obejtos/Selection_2024-07-12T13.25.51.png<>uid://c8but0or4tsjr::::res://Sprits/EquipmentPro.otf<>uid://mriu62pgl3mb::::res://Sprits/MatchupPro.otf<>res://Scrips/chfes/altenativas.gd<>uid://d3kxxbtsbw26p::::res://Sprits/DesenhosDoJogoEngeirosTemporais/butão/e.png<>uid://b1lprkwjbfj24::::res://Sprits/DesenhosDoJogoEngeirosTemporais/butão/d.png
+feramentas.tscn::PackedScene::5378254655012472813::1730808445::0::1::::<><>::res://Scrips/feramenta.gd<>uid://bisunwjbsgqiy::::res://Sprits/DesenhosDoJogoEngeirosTemporais/obejtos/Engrenagem.png<>uid://c2ui1b76x3r0j::::res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/selecionar-1.ogg
+fundo 1.tscn::PackedScene::6084775509015257730::1730662101::0::1::::<><>::uid://d1ucwwg3aix0b::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/backgraunds/BackgroundQuarto_5.png
+game_overl.tscn::PackedScene::729436953432173072::1730657591::0::1::::<><>::res://Scrips/game_overl.gd<>res://VIDEOS/10164.ogv<>uid://bt4jyiv00rn2r::::res://temapaFont.tres
+historia.tscn::PackedScene::3228471126140525573::1730754043::0::1::::<><>::res://Scrips/historia.gd<>uid://dabnki2uv2jq6::::res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/Musicas/retroindiejosh_mysterious-wave.ogg<>uid://b2gln5m6fuonb::::res://Scenes/menu.tscn<>uid://s2nn8fwkg22k::::res://Sprits/Metal Buttons Icons.png<>uid://c5wd5wjy6673e::::res://Scenes/cutsceane.tscn
+historia_fimal.tscn::PackedScene::4086945187898916288::1730754044::0::1::::<><>::res://Scrips/historia_fimal.gd<>uid://wib3tgk78v7v::::res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/Musicas/retroindiejosh_fate-of-them-all.ogg<>uid://b2gln5m6fuonb::::res://Scenes/menu.tscn<>uid://jy4142ktfwwe::::res://Scenes/cutsceane2.tscn<>uid://s2nn8fwkg22k::::res://Sprits/Metal Buttons Icons.png
+hud.tscn::PackedScene::6386487129227233436::1730662158::0::1::::<><>::uid://cs8k82ek570v2::::res://Sprits/DesenhosDoJogoEngeirosTemporais/obejtos/HealthBarUnder.png<>res://Scrips/hud.gd<>uid://q42umrub4u3s::::res://Sprits/DesenhosDoJogoEngeirosTemporais/obejtos/OverBarBase.png<>uid://muhj0efxu62b::::res://Sprits/DesenhosDoJogoEngeirosTemporais/obejtos/HealthBarProgress.png<>uid://13wmwuppkeje::::res://Sprits/DesenhosDoJogoEngeirosTemporais/obejtos/HealthIcon.png
+IAdemar.tscn::PackedScene::3934559186813079954::1730661311::0::1::::<><>::res://Scrips/IAdemar.gd<>uid://cn1nxxtbv15ii::::res://Sprits/DesenhosDoJogoEngeirosTemporais/personages/IAFlutuante_1.png<>uid://v8scm81omh5h::::res://Sprits/DesenhosDoJogoEngeirosTemporais/personages/IAFlutuante.png<>uid://c2ui1b76x3r0j::::res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/selecionar-1.ogg<>uid://s2nn8fwkg22k::::res://Sprits/Metal Buttons Icons.png
+inimigo_2.tscn::PackedScene::648374575677284082::1730658427::0::1::::<><>::uid://cdpetfag7dne0::::res://Sprits/DesenhosDoJogoEngeirosTemporais/personages/seguranca-Sheet.png<>res://Scrips/inimigo_2.gd<>res://Scrips/hit.gdshader
+maquina_do_tempo.tscn::PackedScene::3543514144809051398::1730657667::0::1::::<><>::uid://xr8hjop4bsw1::::res://Sprits/DesenhosDoJogoEngeirosTemporais/obejtos/External (3).png<>res://Scrips/maquina_do_tempo.gd<>uid://c2ui1b76x3r0j::::res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/selecionar-1.ogg<>uid://s2nn8fwkg22k::::res://Sprits/Metal Buttons Icons.png
+menu.tscn::PackedScene::4294598426339668675::1730903605::0::1::::<><>::res://Scrips/menu.gd<>uid://c8but0or4tsjr::::res://Sprits/EquipmentPro.otf<>uid://dsrmorbu6wu7y::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/talisMapDecoração/PredioTilemap_5.png<>uid://mriu62pgl3mb::::res://Sprits/MatchupPro.otf<>uid://b6v28u5ot682f::::res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/Musicas/retroindiejosh_stasis.ogg<>uid://die58agbfymrm::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/ChaoDoQuarto.png<>uid://cyqx1sjik7hma::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Selection_2024-07-20T11.04.52.png<>uid://df1ycdgxdqjp5::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Selection_2024-07-20T11.08.07.png<>uid://dw3ud0f848qci::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Selection_2024-07-20T11.26.41.png<>uid://bbxr55iyjqf4g::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Plataforma.png<>uid://b6ux0k3yd24rq::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/TetoDoQuarto_1-1.png<>uid://civ5mbgsl0tld::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chãoDoC1.png<>uid://b3wo4i5ibc1n7::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/talisMapDecoração/BackgroundQuarto_6-1.png<>uid://6lhet3ps20ii::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chão1.png<>uid://dssg6ijirigj6::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chão2.png<>uid://bwfq30k03sqx0::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chão3.png<>uid://gv6bue2gyd17::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/backgraunds/Background_6.png
+missao.tscn::PackedScene::672265261666280682::1730754115::0::1::::<><>::res://Scrips/missao.gd<>uid://mriu62pgl3mb::::res://Sprits/MatchupPro.otf<>uid://dtis72w157pg8::::res://Sprits/Xolonium-Regular.ttf
+mobile_buttons.tscn::PackedScene::3210111715728269739::1730808444::0::1::::<><>::uid://b4kwnaisk6kqh::::res://Sprits/DesenhosDoJogoEngeirosTemporais/butão/ui_buttons_arrow_up_PRESSED.png<>uid://c7n8mtr5bnfuj::::res://Sprits/DesenhosDoJogoEngeirosTemporais/butão/ui_buttons_arrow_up_NORMAL.png<>uid://p3ielp2wh0br::::res://Sprits/DesenhosDoJogoEngeirosTemporais/butão/ui_buttons_arrow_left_PRESSED.png<>uid://pvy7mdxih7pd::::res://Sprits/DesenhosDoJogoEngeirosTemporais/butão/ui_buttons_arrow_left_NORMAL.png<>uid://c2sgejlu5qip0::::res://Sprits/DesenhosDoJogoEngeirosTemporais/butão/ui_buttons_arrow_right_PRESSED.png<>uid://clxcsxmdqkv6d::::res://Sprits/DesenhosDoJogoEngeirosTemporais/butão/ui_buttons_arrow_right_NORMAL.png<>uid://s2nn8fwkg22k::::res://Sprits/Metal Buttons Icons.png
+Platafoma.tscn::PackedScene::3086323903696731651::1730657665::0::1::::<><>::uid://bbxr55iyjqf4g::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Plataforma.png
+plataforma que sobe.tscn::PackedScene::5301274435685020053::1730657642::0::1::::<><>::res://Scrips/plataformas.gd<>uid://bbxr55iyjqf4g::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Plataforma.png
+plataforma superior E.tscn::PackedScene::7606402378030634130::1730657634::0::1::::<><>::res://Scrips/plataformas.gd<>uid://bbxr55iyjqf4g::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Plataforma.png
+player.tscn::PackedScene::7354712801249177955::1730657600::0::1::::<><>::res://Scrips/player.gd<>uid://d15t8lka4nw3w::::res://Sprits/DesenhosDoJogoEngeirosTemporais/personages/TerezaAnimacoes_1.png<>res://Scrips/hit.gdshader<>uid://dcr3taw8bpqkw::::res://Sprits/DesenhosDoJogoEngeirosTemporais/personages/TerezaAnimacoes_2.png<>uid://hsu2usd0ebxt::::res://Sprits/DesenhosDoJogoEngeirosTemporais/personages/TerezaAnimacoes_3.png<>res://Scrips/stateMachines/StateMachine.gd<>res://Scrips/stateMachines/ide.gd<>res://Scrips/stateMachines/rum.gd<>res://Scrips/stateMachines/jump.gd<>uid://bvu3vr2uw2yxs::::res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/Passos.ogg
+::res://Scenes/chefes/::1730903609
+cena_chef_1.tscn::PackedScene::177802740220208548::1730903606::0::1::::<><>::uid://die58agbfymrm::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/ChaoDoQuarto.png<>uid://dsrmorbu6wu7y::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/talisMapDecoração/PredioTilemap_5.png<>uid://bbxr55iyjqf4g::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Plataforma.png<>uid://b6ux0k3yd24rq::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/TetoDoQuarto_1-1.png<>uid://cyqx1sjik7hma::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Selection_2024-07-20T11.04.52.png<>uid://df1ycdgxdqjp5::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Selection_2024-07-20T11.08.07.png<>uid://civ5mbgsl0tld::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chãoDoC1.png<>uid://dw3ud0f848qci::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Selection_2024-07-20T11.26.41.png<>uid://b3wo4i5ibc1n7::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/talisMapDecoração/BackgroundQuarto_6-1.png<>uid://cf3bb81kn7tnx::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/backgraunds/Selection_2024-07-20T11.04.02.png<>uid://6lhet3ps20ii::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chão1.png<>uid://dssg6ijirigj6::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chão2.png<>uid://bwfq30k03sqx0::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chão3.png<>uid://bl0acoa2r32k2::::res://Scenes/mobile_buttons.tscn<>uid://dc1xbsmpp5jwt::::res://Scenes/player.tscn<>uid://b2gln5m6fuonb::::res://Scenes/menu.tscn<>uid://ibonwmslow63::::res://Scenes/chefes/missaoDosChfes.tscn<>uid://dabnki2uv2jq6::::res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/Musicas/retroindiejosh_mysterious-wave.ogg<>uid://bttvbutm1xx4u::::res://Scenes/chefes/NPC/chef_1.tscn
+cena_chef_2.tscn::PackedScene::6872895945096527158::1730903608::0::1::::<><>::uid://dsrmorbu6wu7y::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/talisMapDecoração/PredioTilemap_5.png<>uid://die58agbfymrm::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/ChaoDoQuarto.png<>uid://cyqx1sjik7hma::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Selection_2024-07-20T11.04.52.png<>uid://df1ycdgxdqjp5::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Selection_2024-07-20T11.08.07.png<>uid://dw3ud0f848qci::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Selection_2024-07-20T11.26.41.png<>uid://bbxr55iyjqf4g::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Plataforma.png<>uid://b6ux0k3yd24rq::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/TetoDoQuarto_1-1.png<>uid://civ5mbgsl0tld::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chãoDoC1.png<>uid://b3wo4i5ibc1n7::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/talisMapDecoração/BackgroundQuarto_6-1.png<>uid://6lhet3ps20ii::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chão1.png<>uid://dssg6ijirigj6::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chão2.png<>uid://bwfq30k03sqx0::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chão3.png<>uid://gv6bue2gyd17::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/backgraunds/Background_6.png<>uid://dc1xbsmpp5jwt::::res://Scenes/player.tscn<>uid://bl0acoa2r32k2::::res://Scenes/mobile_buttons.tscn<>uid://b2gln5m6fuonb::::res://Scenes/menu.tscn<>uid://ibonwmslow63::::res://Scenes/chefes/missaoDosChfes.tscn<>uid://ckno7ot5qtjc5::::res://Scenes/chefes/NPC/chef_2.tscn<>uid://dabnki2uv2jq6::::res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/Musicas/retroindiejosh_mysterious-wave.ogg
+cena_chef_3.tscn::PackedScene::9144779998093856286::1730903609::0::1::::<><>::uid://dsrmorbu6wu7y::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/talisMapDecoração/PredioTilemap_5.png<>uid://die58agbfymrm::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/ChaoDoQuarto.png<>uid://cyqx1sjik7hma::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Selection_2024-07-20T11.04.52.png<>uid://df1ycdgxdqjp5::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Selection_2024-07-20T11.08.07.png<>uid://dw3ud0f848qci::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Selection_2024-07-20T11.26.41.png<>uid://bbxr55iyjqf4g::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Plataforma.png<>uid://b6ux0k3yd24rq::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/TetoDoQuarto_1-1.png<>uid://civ5mbgsl0tld::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chãoDoC1.png<>uid://b3wo4i5ibc1n7::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/talisMapDecoração/BackgroundQuarto_6-1.png<>uid://6lhet3ps20ii::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chão1.png<>uid://dssg6ijirigj6::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chão2.png<>uid://bwfq30k03sqx0::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chão3.png<>uid://ba688caa5towv::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/backgraunds/Selection_2024-07-20T11.23.47.png<>uid://bl0acoa2r32k2::::res://Scenes/mobile_buttons.tscn<>uid://dc1xbsmpp5jwt::::res://Scenes/player.tscn<>uid://b2gln5m6fuonb::::res://Scenes/menu.tscn<>uid://ibonwmslow63::::res://Scenes/chefes/missaoDosChfes.tscn<>uid://bcxmiu3ln0syc::::res://Scenes/chefes/NPC/chef_3.tscn<>uid://dabnki2uv2jq6::::res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/Musicas/retroindiejosh_mysterious-wave.ogg
+cena_chef_4.tscn::PackedScene::8404774061153505101::1730903609::0::1::::<><>::uid://dsrmorbu6wu7y::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/talisMapDecoração/PredioTilemap_5.png<>uid://die58agbfymrm::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/ChaoDoQuarto.png<>uid://cyqx1sjik7hma::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Selection_2024-07-20T11.04.52.png<>uid://df1ycdgxdqjp5::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Selection_2024-07-20T11.08.07.png<>uid://dw3ud0f848qci::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Selection_2024-07-20T11.26.41.png<>uid://bbxr55iyjqf4g::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Plataforma.png<>uid://b6ux0k3yd24rq::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/TetoDoQuarto_1-1.png<>uid://civ5mbgsl0tld::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chãoDoC1.png<>uid://b3wo4i5ibc1n7::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/talisMapDecoração/BackgroundQuarto_6-1.png<>uid://6lhet3ps20ii::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chão1.png<>uid://dssg6ijirigj6::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chão2.png<>uid://bwfq30k03sqx0::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chão3.png<>uid://dyvl1d77d4mwv::::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/backgraunds/Selection_2024-07-20T11.07.15.png<>uid://bl0acoa2r32k2::::res://Scenes/mobile_buttons.tscn<>uid://dc1xbsmpp5jwt::::res://Scenes/player.tscn<>uid://b2gln5m6fuonb::::res://Scenes/menu.tscn<>uid://ibonwmslow63::::res://Scenes/chefes/missaoDosChfes.tscn<>uid://ctkj3is5ccdmg::::res://Scenes/chefes/NPC/chef_4.tscn<>uid://dabnki2uv2jq6::::res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/Musicas/retroindiejosh_mysterious-wave.ogg
+missaoDosChfes.tscn::PackedScene::564449554962283250::1730754129::0::1::::<><>::uid://mriu62pgl3mb::::res://Sprits/MatchupPro.otf<>res://Scrips/chfes/missao_dos_chfes.gd<>uid://dtis72w157pg8::::res://Sprits/Xolonium-Regular.ttf
+::res://Scenes/chefes/NPC/::1730657750
+chef_1.tscn::PackedScene::3760509813184040930::1730657735::0::1::::<><>::uid://ca72ykw1qbup1::::res://Sprits/DesenhosDoJogoEngeirosTemporais/personages/coca_di-Sheet.png<>res://Scrips/chfes/chef_1.gd<>uid://c6b4c4cvqbdpr::::res://Sprits/DesenhosDoJogoEngeirosTemporais/personages/coca-Sheet.png<>uid://s2nn8fwkg22k::::res://Sprits/Metal Buttons Icons.png
+chef_2.tscn::PackedScene::5502474663936377502::1730657750::0::1::::<><>::uid://dhvu6k317ddau::::res://Sprits/DesenhosDoJogoEngeirosTemporais/personages/Trela_vita_b-Sheet.png<>res://Scrips/chfes/chef_2.gd<>uid://fn2rhk14uu3v::::res://Sprits/DesenhosDoJogoEngeirosTemporais/personages/Trela_vita_-Sheet_b.png<>uid://s2nn8fwkg22k::::res://Sprits/Metal Buttons Icons.png
+chef_3.tscn::PackedScene::2575023043816670194::1730657746::0::1::::<><>::uid://b6qd8ubuillyx::::res://Sprits/DesenhosDoJogoEngeirosTemporais/personages/aple_n-Sheet.png<>res://Scrips/chfes/chef_3.gd<>uid://tjgh05bcityq::::res://Sprits/DesenhosDoJogoEngeirosTemporais/personages/aple-Sheet.png<>uid://s2nn8fwkg22k::::res://Sprits/Metal Buttons Icons.png
+chef_4.tscn::PackedScene::6127670078572748954::1730657740::0::1::::<><>::res://Scrips/chfes/chef_4.gd<>uid://c0heuyoecfrak::::res://Sprits/DesenhosDoJogoEngeirosTemporais/personages/Max_b-Sheet.png<>uid://c47kcyt8f3r2x::::res://Sprits/DesenhosDoJogoEngeirosTemporais/personages/Max-Sheet.png<>uid://s2nn8fwkg22k::::res://Sprits/Metal Buttons Icons.png
+::res://Scrips/::1730820923
+arma.gd::GDScript::-1::1729444144::0::1::::<>Node2D<>::
+bala.gd::GDScript::-1::1730808442::0::1::::<>Area2D<>::
+colisao.gd::GDScript::-1::1730203020::0::1::::Porta<>Area2D<>::
+cutsceane.gd::GDScript::-1::1730743032::0::1::::<>Node2D<>::
+cutsceane_2.gd::GDScript::-1::1730753915::0::1::::<>Node2D<>::
+dialogDosInimigos.gd::GDScript::-1::1730815520::0::1::::<>Node2D<>::
+dialo_screen.gd::GDScript::-1::1730659904::0::1::::DialogScreen<>Control<>::
+feramenta.gd::GDScript::-1::1730808243::0::1::::<>Area2D<>::
+game_overl.gd::GDScript::-1::1729444144::0::1::::<>Control<>::
+gerador3.gd::GDScript::-1::1729763008::0::1::::<>Node2D<>::
+gerador.gd::GDScript::-1::1730661130::0::1::::gerador<>Node2D<>::
+geradorCena2.gd::GDScript::-1::1729763008::0::1::::<>Node2D<>::
+GLOGAL.gd::GDScript::-1::1730659354::0::1::::_Global<>Node<>::
+historia.gd::GDScript::-1::1730729733::0::1::::DIalogInicial<>Node2D<>::
+historia_fimal.gd::GDScript::-1::1729763008::0::1::::<>Node2D<>::
+hit.gdshader::Shader::-1::1730318294::0::1::::<><>::
+hud.gd::GDScript::-1::1729444144::0::1::::<>CanvasLayer<>::
+IAdemar.gd::GDScript::-1::1730661057::0::1::::IAdemar<>CharacterBody2D<>::
+inimigo_1.gd::GDScript::-1::1730198000::0::1::::<>CharacterBody2D<>::
+inimigo_2.gd::GDScript::-1::1730661542::0::1::::<>CharacterBody2D<>::
+maquina_do_tempo.gd::GDScript::-1::1730203020::0::1::::<>Area2D<>::
+menu.gd::GDScript::-1::1730820923::0::1::::<>Control<>::
+missao.gd::GDScript::-1::1729444144::0::1::::<>CanvasLayer<>::
+plataformas.gd::GDScript::-1::1729444144::0::1::::<>Path2D<>::
+player.gd::GDScript::-1::1729763008::0::1::::player<>CharacterBody2D<>::
+::res://Scrips/chfes/::1730754129
+altenativas.gd::GDScript::-1::1730662100::0::1::::<>Node2D<>::
+chef_1.gd::GDScript::-1::1730318212::0::1::::<>CharacterBody2D<>::
+chef_2.gd::GDScript::-1::1730662100::0::1::::<>CharacterBody2D<>::
+chef_3.gd::GDScript::-1::1729771580::0::1::::<>CharacterBody2D<>::
+chef_4.gd::GDScript::-1::1729771580::0::1::::<>CharacterBody2D<>::
+missao_dos_chfes.gd::GDScript::-1::1729763008::0::1::::<>CanvasLayer<>::
+::res://Scrips/stateMachines/::1730657355
+ide.gd::GDScript::-1::1729763008::0::1::::IDE<>State<>::
+jump.gd::GDScript::-1::1729763008::0::1::::jump<>State<>::
+rum.gd::GDScript::-1::1729763008::0::1::::RUM<>State<>::
+State.gd::GDScript::-1::1729444144::0::1::::State<>Node<>::
+StateMachine.gd::GDScript::-1::1729444144::0::1::::stateMachine<>Node<>::
+::res://Sprits/::1730752052
+3267e359b5cd0a71e7e7c715515e9ad4.jpg::CompressedTexture2D::5447765550174020331::1730752050::1730752052::1::::<><>::
+EquipmentPro.otf::FontFile::7092387190657792147::1729444144::1730657423::1::::<><>::
+f710f13645d7c254cc5dad4760a3b2dd.jpg::CompressedTexture2D::7959874631426046077::1730752050::1730752051::1::::<><>::
+Green Buttons Text.png::CompressedTexture2D::8978347302440481501::1729763008::1730657425::1::::<><>::
+icon.svg::CompressedTexture2D::2174282229086759625::1729444144::1730657424::1::::<><>::
+MatchupPro.otf::FontFile::877883667919222625::1729444144::1730657423::1::::<><>::
+Metal Buttons Icons.png::CompressedTexture2D::1319951663078712028::1729763008::1730657425::1::::<><>::
+Xolonium-Regular.ttf::FontFile::8510516606847987145::1729444144::1730657423::1::::<><>::
+::res://Sprits/DesenhosDoJogoEngeirosTemporais/::1730657425
+Untitled 08-27-2024 08-39-28.png::CompressedTexture2D::5197324572167670039::1730201698::1730657425::1::::<><>::
+::res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/::1730657423
+2050.ogg::AudioStreamOggVorbis::8458725964881507000::1729444144::1730657423::1::::<><>::
+ia_voz_amplificada.ogg::AudioStreamOggVorbis::8360434366143620452::1729444144::1730657423::1::::<><>::
+Passos.ogg::AudioStreamOggVorbis::3903412468188309752::1729444144::1730657423::1::::<><>::
+Rifle de gelo.ogg::AudioStreamOggVorbis::8278959220225752188::1729444144::1730657423::1::::<><>::
+RVS music 3.ogg::AudioStreamOggVorbis::8805770388913597983::1729444144::1730657423::1::::<><>::
+selecionar-1.ogg::AudioStreamOggVorbis::6709759970675377359::1729444144::1730657423::1::::<><>::
+::res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/Musicas/::1730657424
+ANMT-Musica 4.ogg::AudioStreamOggVorbis::6445414005267838736::1729444144::1730657424::1::::<><>::
+Florest.v1.ogg::AudioStreamOggVorbis::8715339656068553295::1729444144::1730657424::1::::<><>::
+retroindiejosh_fate-of-them-all.ogg::AudioStreamOggVorbis::1560781309002212849::1729763008::1730657424::1::::<><>::
+retroindiejosh_fight-with-power.ogg::AudioStreamOggVorbis::7878643230854333007::1729763008::1730657424::1::::<><>::
+retroindiejosh_laboratory-electric.ogg::AudioStreamOggVorbis::2510515121679749445::1729763008::1730657423::1::::<><>::
+retroindiejosh_mysterious-wave.ogg::AudioStreamOggVorbis::7162134070512740043::1729763008::1730657423::1::::<><>::
+retroindiejosh_stasis.ogg::AudioStreamOggVorbis::4607326156784795527::1729763008::1730657423::1::::<><>::
+Sweet Home.ogg::AudioStreamOggVorbis::7439053193512745593::1729444144::1730657423::1::::<><>::
+::res://Sprits/DesenhosDoJogoEngeirosTemporais/butão/::1730657431
+d.png::CompressedTexture2D::4234980446594142383::1729770480::1730657431::1::::<><>::
+e.png::CompressedTexture2D::9146631097272953945::1729770480::1730657431::1::::<><>::
+ui_buttons_arrow_left_NORMAL.png::CompressedTexture2D::1097699576607725913::1729763008::1730657431::1::::<><>::
+ui_buttons_arrow_left_PRESSED.png::CompressedTexture2D::1111128712987288527::1729763008::1730657431::1::::<><>::
+ui_buttons_arrow_right_NORMAL.png::CompressedTexture2D::5592554140756566565::1729763008::1730657431::1::::<><>::
+ui_buttons_arrow_right_PRESSED.png::CompressedTexture2D::6705470880970807895::1729763008::1730657431::1::::<><>::
+ui_buttons_arrow_up_NORMAL.png::CompressedTexture2D::7047747390464411837::1729763008::1730657431::1::::<><>::
+ui_buttons_arrow_up_PRESSED.png::CompressedTexture2D::4443899929089130663::1729763008::1730657431::1::::<><>::
+::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/::1730657433
+ChaoDoQuarto.png::CompressedTexture2D::7730910761503558190::1729444144::1730657425::1::::<><>::
+chão1.png::CompressedTexture2D::2198995512103498452::1729444144::1730657433::1::::<><>::
+chão2.png::CompressedTexture2D::8460240132181176313::1729444144::1730657433::1::::<><>::
+chão3.png::CompressedTexture2D::3941919936319540439::1729444144::1730657433::1::::<><>::
+chãoDoC1.png::CompressedTexture2D::5379547051261288061::1729444144::1730657432::1::::<><>::
+Plataforma.png::CompressedTexture2D::2505177567530737540::1729444144::1730657432::1::::<><>::
+Selection_2024-07-20T11.04.52.png::CompressedTexture2D::6491847539940747028::1729444144::1730657432::1::::<><>::
+Selection_2024-07-20T11.08.07.png::CompressedTexture2D::7565341038177764688::1729444144::1730657432::1::::<><>::
+Selection_2024-07-20T11.26.41.png::CompressedTexture2D::8762440207813947332::1729444144::1730657432::1::::<><>::
+Selection_2024-07-20T13.01.30.png::CompressedTexture2D::2370585427473244322::1729444144::1730657433::1::::<><>::
+TetoDoQuarto_1-1.png::CompressedTexture2D::4605004096818131150::1729444144::1730657432::1::::<><>::
+TetoDoQuarto_1.png::CompressedTexture2D::2799958000367992214::1729444144::1730657432::1::::<><>::
+::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/backgraunds/::1730657431
+BackgroundQuarto_5.png::CompressedTexture2D::9025621428255844719::1729444144::1730657431::1::::<><>::
+Background_6.png::CompressedTexture2D::466370065115057568::1729444144::1730657431::1::::<><>::
+Selection_2024-07-20T11.04.02.png::CompressedTexture2D::5181652439385185453::1729444144::1730657431::1::::<><>::
+Selection_2024-07-20T11.07.15.png::CompressedTexture2D::8887860757252182857::1729444144::1730657430::1::::<><>::
+Selection_2024-07-20T11.23.47.png::CompressedTexture2D::2452479091116663089::1729444144::1730657430::1::::<><>::
+::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/ideaFinal/::1730657432
+BackgroundQuarto_3.png::CompressedTexture2D::8749948027920734661::1729444144::1730657430::1::::<><>::
+BackgroundQuarto_4.png::CompressedTexture2D::7222720322804053328::1729444144::1730657432::1::::<><>::
+PredioTilemap_3.png::CompressedTexture2D::8477252821213689330::1729444144::1730657430::1::::<><>::
+::res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/talisMapDecoração/::1730657425
+BackgroundQuarto_6-1.png::CompressedTexture2D::4398026908965157858::1729444144::1730657425::1::::<><>::
+BackgroundQuarto_8.png::CompressedTexture2D::7407023850632256234::1729444144::1730657425::1::::<><>::
+PredioTilemap_5.png::CompressedTexture2D::8458510158803549064::1729444144::1730657425::1::::<><>::
+::res://Sprits/DesenhosDoJogoEngeirosTemporais/obejtos/::1730723465
+1339380970.png::CompressedTexture2D::3727867335757364054::1730723463::1730723465::1::::<><>::
+AverageDialogueChoiceBox.png::CompressedTexture2D::5094893346800236803::1729444144::1730657432::1::::<><>::
+BigDialogueChoiceBox.png::CompressedTexture2D::7098895107580480060::1729444144::1730657432::1::::<><>::
+Bullet.png::CompressedTexture2D::5943548912718943211::1729444144::1730657432::1::::<><>::
+BulletExplosion.png::CompressedTexture2D::7327520855757004420::1729444144::1730657432::1::::<><>::
+BulletExplosion_1.png::CompressedTexture2D::1671667220574455995::1729444144::1730657432::1::::<><>::
+CORAÇÃO.png::CompressedTexture2D::5721756695226575996::1729444144::1730657432::1::::<><>::
+DialogueButton.png::CompressedTexture2D::4665246830107875426::1729444144::1730657432::1::::<><>::
+Engrenagem.png::CompressedTexture2D::2986328957033216024::1729444144::1730657432::1::::<><>::
+Engrenagem_1.png::CompressedTexture2D::6504401200168638259::1729444144::1730657432::1::::<><>::
+Engrenagem_2.png::CompressedTexture2D::7401364050647106669::1729444144::1730657432::1::::<><>::
+External (2).png::CompressedTexture2D::4119187559658401053::1729444144::1730657432::1::::<><>::
+External (3).png::CompressedTexture2D::1651454481870147718::1729444144::1730657432::1::::<><>::
+HealthBarProgress.png::CompressedTexture2D::883996089353800387::1729444144::1730657431::1::::<><>::
+HealthBarUnder.png::CompressedTexture2D::6105032544686687081::1729444144::1730657424::1::::<><>::
+HealthIcon.png::CompressedTexture2D::1884070902182002534::1729444144::1730657424::1::::<><>::
+NormalDialogueChoiceBox.png::CompressedTexture2D::6990702708524527838::1729444144::1730657424::1::::<><>::
+OverBarBase.png::CompressedTexture2D::1184564185212129618::1729444144::1730657424::1::::<><>::
+Selection_2024-07-10T20.35.24-5.png::CompressedTexture2D::7410028779350484897::1729444144::1730657424::1::::<><>::
+Selection_2024-07-10T20.35.52.png::CompressedTexture2D::1373544710920368031::1729444144::1730657424::1::::<><>::
+Selection_2024-07-10T20.36.08.png::CompressedTexture2D::8071012087069307092::1729444144::1730657424::1::::<><>::
+Selection_2024-07-10T20.36.49-1.png::CompressedTexture2D::5113182263197047127::1729444144::1730657424::1::::<><>::
+Selection_2024-07-12T13.25.51.png::CompressedTexture2D::9143800690485554957::1729444144::1730657424::1::::<><>::
+Selection_2024-10-15T15.08.54.png::CompressedTexture2D::5614226679341983848::1729444144::1730657424::1::::<><>::
+Selection_2024-10-15T15.09.25.png::CompressedTexture2D::16264465586409908::1729444144::1730657424::1::::<><>::
+SmallDialogueChoiceBox.png::CompressedTexture2D::1456204082918996514::1729444144::1730657424::1::::<><>::
+terraNomal.png::CompressedTexture2D::1060719608836740730::1730723463::1730723465::1::::<><>::
+Untitled 08-08-2024 11-32-49.png::CompressedTexture2D::5693510669254304270::1729444144::1730657424::1::::<><>::
+voutar 2.png::CompressedTexture2D::1644567889259535727::1729444144::1730657424::1::::<><>::
+::res://Sprits/DesenhosDoJogoEngeirosTemporais/personages/::1730657425
+aple-Sheet.png::CompressedTexture2D::1352545590899417740::1729444144::1730657424::1::::<><>::
+aple_n-Sheet.png::CompressedTexture2D::4595547015645874699::1729444144::1730657424::1::::<><>::
+coca-Sheet.png::CompressedTexture2D::6952525789539634627::1729444144::1730657424::1::::<><>::
+coca_di-Sheet.png::CompressedTexture2D::4840584233796490928::1729444144::1730657424::1::::<><>::
+gif_1-Sheet.png::CompressedTexture2D::6029717140654902784::1729444144::1730657424::1::::<><>::
+IAFlutuante.png::CompressedTexture2D::1543187342199516767::1729444144::1730657424::1::::<><>::
+IAFlutuante_1.png::CompressedTexture2D::5739801787914846480::1729444144::1730657424::1::::<><>::
+Max-Sheet.png::CompressedTexture2D::6874989953953387649::1729444144::1730657425::1::::<><>::
+Max_b-Sheet.png::CompressedTexture2D::6542292968836889750::1729444144::1730657425::1::::<><>::
+seguranca-Sheet.png::CompressedTexture2D::5014650625598713901::1729444144::1730657425::1::::<><>::
+TerezaAnimacoes_1.png::CompressedTexture2D::9047316465595549662::1729444144::1730657425::1::::<><>::
+TerezaAnimacoes_2.png::CompressedTexture2D::7336468201543049042::1729444144::1730657425::1::::<><>::
+TerezaAnimacoes_3.png::CompressedTexture2D::529744339773420341::1729444144::1730657425::1::::<><>::
+Trela_vita_-Sheet_b.png::CompressedTexture2D::379451230626396877::1729444144::1730657425::1::::<><>::
+Trela_vita_b-Sheet.png::CompressedTexture2D::7695206158559396472::1729444144::1730657425::1::::<><>::
+::res://Sprits/DesenhosDoJogoEngeirosTemporais/postes/::1730657425
+7 Sem Título_20240619101305-pixelicious (1).png::CompressedTexture2D::4439595292078867811::1729444144::1730657425::1::::<><>::
+7 Sem Título_20240619110814-pixelicious.png::CompressedTexture2D::5922400035254056941::1729444144::1730657425::1::::<><>::
+8 Sem Título_20240619111030-pixelicious.png::CompressedTexture2D::264481682285140273::1729444144::1730657425::1::::<><>::
+8 Sem Título_20240619111131-pixelicious.png::CompressedTexture2D::6594185354300949212::1729444144::1730657425::1::::<><>::
+9 Sem Título_20240619112437-pixelicious.png::CompressedTexture2D::8644545901908043637::1729444144::1730657425::1::::<><>::
+9 Sem Título_20240619113155-pixelicious.png::CompressedTexture2D::4407676640258343903::1729444144::1730657425::1::::<><>::
+10 Sem Título_20240619132426-pixelicious.png::CompressedTexture2D::2252731841573077289::1729444144::1730657425::1::::<><>::
+10 Sem Título_20240619132654-pixelicious (1).png::CompressedTexture2D::1487777728243853524::1729444144::1730657425::1::::<><>::
+10 Sem Título_20240619132654-pixelicious.png::CompressedTexture2D::1390846259196260676::1729444144::1730657425::1::::<><>::
+::res://VIDEOS/::1730657424
+1016 (1).ogv::VideoStreamTheora::-1::1729444144::0::1::::<><>::
+1016.ogv::VideoStreamTheora::-1::1729103988::0::1::::<><>::
+1016_1_.ogv::VideoStreamTheora::-1::1729444144::0::1::::<><>::
+10164.ogv::VideoStreamTheora::-1::1729444144::0::1::::<><>::
+video-refeito.ogg::AudioStreamOggVorbis::3475465287164103733::1728652734::1730657424::1::::<><>::
+video-refeito.ogv::VideoStreamTheora::-1::1728743100::0::1::::<><>::

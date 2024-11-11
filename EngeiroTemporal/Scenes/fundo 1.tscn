@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=3 uid="uid://csxrmmmm0slyg"]
+
+[ext_resource type="Texture2D" uid="uid://d1ucwwg3aix0b" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/backgraunds/BackgroundQuarto_5.png" id="1_e1nvk"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_7ynke"]
+
+[node name="cenario" type="ParallaxBackground"]
+scroll_ignore_camera_zoom = true
+
+[node name="fundo" type="ParallaxLayer" parent="."]
+motion_offset = Vector2(5, 5)
+motion_mirroring = Vector2(5, 5)
+
+[node name="Sprite2D" type="Sprite2D" parent="fundo"]
+position = Vector2(217, 125)
+scale = Vector2(1.75781, 1.14844)
+texture = ExtResource("1_e1nvk")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+visible = false
+position = Vector2(305, 180)
+motion_scale = Vector2(0.5, 1)
+motion_mirroring = Vector2(500, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer"]
+material = SubResource("ShaderMaterial_7ynke")
+scale = Vector2(1.2, 1.2)
+
+[node name="chao" type="ParallaxLayer" parent="."]
+position = Vector2(575, 491)
+motion_scale = Vector2(0.5, 1)
+motion_offset = Vector2(2, 0)
+motion_mirroring = Vector2(1150, 0)

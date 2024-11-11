@@ -1,0 +1,167 @@
+[gd_scene load_steps=16 format=3 uid="uid://craupmrjwag62"]
+
+[ext_resource type="Script" path="res://Scrips/inimigo_1.gd" id="1_1uvis"]
+[ext_resource type="Texture2D" uid="uid://cr53tb1fco7y7" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/personages/gif_1-Sheet.png" id="1_dbt8w"]
+[ext_resource type="Shader" path="res://Scrips/hit.gdshader" id="2_xq7u8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_upmty"]
+size = Vector2(14, 36)
+
+[sub_resource type="Animation" id="Animation_aba2e"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Gif1-sheet:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_6tpp4"]
+resource_name = "atack"
+length = 0.7
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Gif1-sheet:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.0666667, 0.166667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [2, 3]
+}
+
+[sub_resource type="Animation" id="Animation_fqe07"]
+resource_name = "hit"
+length = 0.5
+
+[sub_resource type="Animation" id="Animation_rjupx"]
+resource_name = "ide"
+length = 0.4
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Gif1-sheet:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [0, 1]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_h20rj"]
+_data = {
+"RESET": SubResource("Animation_aba2e"),
+"atack": SubResource("Animation_6tpp4"),
+"hit": SubResource("Animation_fqe07"),
+"ide": SubResource("Animation_rjupx")
+}
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_a7ctt"]
+resource_local_to_scene = true
+shader = ExtResource("2_xq7u8")
+shader_parameter/active = false
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_f7x2e"]
+height = 48.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ue1al"]
+radius = 1874.45
+
+[sub_resource type="Animation" id="Animation_66oav"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Gif1-sheet:material:shader_parameter/active")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_xc1oo"]
+resource_name = "hite"
+length = 0.7
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Gif1-sheet:material:shader_parameter/active")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.0666667, 0.333333, 0.533333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [false, true, false]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_71jl5"]
+_data = {
+"RESET": SubResource("Animation_66oav"),
+"hite": SubResource("Animation_xc1oo")
+}
+
+[node name="animigo1" type="CharacterBody2D" groups=["inimi"]]
+z_index = 2
+collision_layer = 4
+collision_mask = 7
+script = ExtResource("1_1uvis")
+speed = 60
+dano = 15
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(0, 8)
+shape = SubResource("RectangleShape2D_upmty")
+
+[node name="anim_inimigo" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_h20rj")
+}
+autoplay = "ide"
+
+[node name="Gif1-sheet" type="Sprite2D" parent="."]
+material = SubResource("ShaderMaterial_a7ctt")
+position = Vector2(-2.38419e-07, -2.38419e-07)
+scale = Vector2(1.15625, 1.10677)
+texture = ExtResource("1_dbt8w")
+hframes = 4
+
+[node name="vida" type="Area2D" parent="." groups=["inimi"]]
+collision_layer = 4
+collision_mask = 14
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="vida"]
+position = Vector2(0, 8)
+shape = SubResource("CapsuleShape2D_f7x2e")
+debug_color = Color(0.966458, 0.184465, 0, 0.42)
+
+[node name="persegui" type="Area2D" parent="."]
+collision_layer = 4
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="persegui"]
+shape = SubResource("CircleShape2D_ue1al")
+debug_color = Color(0.608763, 0.470606, 0.702267, 0.42)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_71jl5")
+}
+
+[connection signal="area_entered" from="vida" to="." method="_on_area_2d_area_entered"]
+[connection signal="body_entered" from="persegui" to="." method="_on_persegui_body_entered"]

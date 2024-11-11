@@ -1,0 +1,59 @@
+[gd_scene load_steps=6 format=3 uid="uid://djbi77kqqr7np"]
+
+[ext_resource type="Script" path="res://Scrips/bala.gd" id="1_a1iw2"]
+[ext_resource type="Texture2D" uid="uid://cl8tq1dfo0w1u" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/obejtos/Selection_2024-10-15T15.08.54.png" id="1_nolhs"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_uyxen"]
+radius = 8.0
+
+[sub_resource type="Curve" id="Curve_i1xgk"]
+min_value = -200.0
+max_value = 200.0
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, -186.415), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Curve" id="Curve_0t3d3"]
+min_value = -200.0
+max_value = 200.0
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, -200), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[node name="bala" type="Area2D" groups=["bullte"]]
+collision_layer = 8
+collision_mask = 4
+script = ExtResource("1_a1iw2")
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_uyxen")
+
+[node name="balaS" type="Sprite2D" parent="."]
+position = Vector2(1.78814e-07, -1.78814e-07)
+scale = Vector2(1.66072, 1.66072)
+texture = ExtResource("1_nolhs")
+
+[node name="VisibleOnScreenEnabler2D" type="VisibleOnScreenEnabler2D" parent="."]
+position = Vector2(0, -1)
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+emitting = false
+amount = 100
+one_shot = true
+explosiveness = 1.0
+fract_delta = false
+local_coords = true
+direction = Vector2(-1, 0)
+spread = 180.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 143.75
+initial_velocity_max = 195.83
+angular_velocity_min = -390.0
+angular_velocity_max = -390.0
+radial_accel_curve = SubResource("Curve_i1xgk")
+tangential_accel_curve = SubResource("Curve_0t3d3")
+angle_min = -90.0
+angle_max = -90.0
+scale_amount_min = 2.0
+scale_amount_max = 2.0
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="screen_exited" from="VisibleOnScreenEnabler2D" to="." method="_on_visible_on_screen_enabler_2d_screen_exited"]

@@ -1,0 +1,52 @@
+[gd_scene load_steps=9 format=3 uid="uid://byh0ni8322lrk"]
+
+[ext_resource type="Script" path="res://Scrips/historia_fimal.gd" id="1_ya7np"]
+[ext_resource type="AudioStream" uid="uid://wib3tgk78v7v" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/Musicas/retroindiejosh_fate-of-them-all.ogg" id="3_x8hq0"]
+[ext_resource type="PackedScene" uid="uid://b2gln5m6fuonb" path="res://Scenes/menu.tscn" id="4_q7y5y"]
+[ext_resource type="PackedScene" uid="uid://jy4142ktfwwe" path="res://Scenes/cutsceane2.tscn" id="5_mv7fk"]
+[ext_resource type="Texture2D" uid="uid://s2nn8fwkg22k" path="res://Sprits/Metal Buttons Icons.png" id="5_ocod2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j6cmr"]
+size = Vector2(30, 30)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wp6sk"]
+atlas = ExtResource("5_ocod2")
+region = Rect2(352, 288, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gept5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wp6sk")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="historiaFimal" type="Node2D" node_paths=PackedStringArray("hud")]
+script = ExtResource("1_ya7np")
+hud = NodePath("dialogo")
+
+[node name="dialogo" type="CanvasLayer" parent="."]
+
+[node name="menu" type="CanvasLayer" parent="."]
+
+[node name="MainMenu" parent="menu" instance=ExtResource("4_q7y5y")]
+visible = false
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="."]
+position = Vector2(380, 210)
+shape = SubResource("RectangleShape2D_j6cmr")
+action = "ui_select"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="TouchScreenButton"]
+position = Vector2(0, -1)
+sprite_frames = SubResource("SpriteFrames_gept5")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_x8hq0")
+autoplay = true
+parameters/looping = true
+
+[node name="Cutsceane" parent="." instance=ExtResource("5_mv7fk")]

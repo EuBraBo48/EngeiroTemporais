@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://ibonwmslow63"]
+
+[ext_resource type="FontFile" uid="uid://mriu62pgl3mb" path="res://Sprits/MatchupPro.otf" id="1_i5c14"]
+[ext_resource type="Script" path="res://Scrips/chfes/missao_dos_chfes.gd" id="1_sxipv"]
+[ext_resource type="FontFile" uid="uid://dtis72w157pg8" path="res://Sprits/Xolonium-Regular.ttf" id="2_ft5xx"]
+
+[node name="missão" type="CanvasLayer" node_paths=PackedStringArray("texto")]
+script = ExtResource("1_sxipv")
+texto = NodePath("texte")
+
+[node name="Titulo" type="Label" parent="."]
+offset_left = 339.0
+offset_top = 32.0
+offset_right = 379.0
+offset_bottom = 55.0
+theme_override_colors/font_color = Color(0.101241, 0.101241, 0.101241, 1)
+theme_override_colors/font_shadow_color = Color(0.414704, 0.414704, 0.414704, 1)
+theme_override_fonts/font = ExtResource("1_i5c14")
+text = "missão"
+metadata/_edit_use_anchors_ = true
+
+[node name="texte" type="Label" parent="."]
+offset_left = 309.0
+offset_top = 43.0
+offset_right = 404.0
+offset_bottom = 66.0
+theme_override_colors/font_color = Color(0.0859838, 0.0859838, 0.0859838, 1)
+theme_override_colors/font_shadow_color = Color(0.497474, 0.497474, 0.497474, 1)
+theme_override_fonts/font = ExtResource("2_ft5xx")
+theme_override_font_sizes/font_size = 9
+text = "pege as peçãs "
+metadata/_edit_use_anchors_ = true

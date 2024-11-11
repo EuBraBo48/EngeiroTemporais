@@ -1,0 +1,133 @@
+[gd_scene load_steps=19 format=3 uid="uid://bcxmiu3ln0syc"]
+
+[ext_resource type="Texture2D" uid="uid://b6qd8ubuillyx" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/personages/aple_n-Sheet.png" id="1_iku3v"]
+[ext_resource type="Script" path="res://Scrips/chfes/chef_3.gd" id="1_j7ijt"]
+[ext_resource type="Texture2D" uid="uid://tjgh05bcityq" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/personages/aple-Sheet.png" id="2_lfaq5"]
+[ext_resource type="Texture2D" uid="uid://s2nn8fwkg22k" path="res://Sprits/Metal Buttons Icons.png" id="4_cpy5y"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nwe4v"]
+atlas = ExtResource("1_iku3v")
+region = Rect2(0, 0, 32, 55)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5mqcq"]
+atlas = ExtResource("1_iku3v")
+region = Rect2(32, 0, 32, 55)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eg6g6"]
+atlas = ExtResource("1_iku3v")
+region = Rect2(64, 0, 32, 55)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ns0hd"]
+atlas = ExtResource("1_iku3v")
+region = Rect2(96, 0, 32, 55)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jrupc"]
+atlas = ExtResource("2_lfaq5")
+region = Rect2(0, 0, 32, 55)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y3tqa"]
+atlas = ExtResource("2_lfaq5")
+region = Rect2(32, 0, 32, 55)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6vkv5"]
+atlas = ExtResource("2_lfaq5")
+region = Rect2(64, 0, 32, 55)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_01cpw"]
+atlas = ExtResource("2_lfaq5")
+region = Rect2(96, 0, 32, 55)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_86jbv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nwe4v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5mqcq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eg6g6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ns0hd")
+}],
+"loop": true,
+"name": &"interagindo",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jrupc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y3tqa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6vkv5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_01cpw")
+}],
+"loop": true,
+"name": &"normal",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_cn5i7"]
+height = 42.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_dtfbl"]
+radius = 52.811
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a0go7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wp6sk"]
+atlas = ExtResource("4_cpy5y")
+region = Rect2(352, 288, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rm437"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wp6sk")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="chef3" type="CharacterBody2D"]
+script = ExtResource("1_j7ijt")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_86jbv")
+animation = &"normal"
+autoplay = "normal"
+frame_progress = 0.681424
+flip_h = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_cn5i7")
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_dtfbl")
+debug_color = Color(0.996517, 0, 0.185162, 0.42)
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="."]
+visible = false
+position = Vector2(-20, -41)
+shape = SubResource("RectangleShape2D_a0go7")
+action = "INTERAGIR"
+visibility_mode = 1
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="TouchScreenButton"]
+scale = Vector2(0.5625, 0.53125)
+sprite_frames = SubResource("SpriteFrames_rm437")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]

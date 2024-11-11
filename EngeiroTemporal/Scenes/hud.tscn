@@ -1,0 +1,31 @@
+[gd_scene load_steps=6 format=3 uid="uid://cw8wrlqyofuca"]
+
+[ext_resource type="Texture2D" uid="uid://cs8k82ek570v2" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/obejtos/HealthBarUnder.png" id="1_efp0q"]
+[ext_resource type="Script" path="res://Scrips/hud.gd" id="1_shi1i"]
+[ext_resource type="Texture2D" uid="uid://q42umrub4u3s" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/obejtos/OverBarBase.png" id="2_rxi02"]
+[ext_resource type="Texture2D" uid="uid://muhj0efxu62b" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/obejtos/HealthBarProgress.png" id="3_3eo0e"]
+[ext_resource type="Texture2D" uid="uid://13wmwuppkeje" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/obejtos/HealthIcon.png" id="4_8q8f4"]
+
+[node name="hud" type="CanvasLayer"]
+script = ExtResource("1_shi1i")
+
+[node name="vida" type="TextureProgressBar" parent="."]
+offset_left = 18.0
+offset_top = 3.0
+offset_right = 78.0
+offset_bottom = 12.0
+value = 100.0
+texture_under = ExtResource("1_efp0q")
+texture_over = ExtResource("2_rxi02")
+texture_progress = ExtResource("3_3eo0e")
+
+[node name="HealthIcon" type="Sprite2D" parent="vida"]
+position = Vector2(-9, 6)
+scale = Vector2(1.13636, 1.2)
+texture = ExtResource("4_8q8f4")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 70.0
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

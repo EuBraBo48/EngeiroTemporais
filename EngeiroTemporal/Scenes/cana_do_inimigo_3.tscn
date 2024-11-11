@@ -1,0 +1,295 @@
+[gd_scene load_steps=23 format=4 uid="uid://c4jm32hmfekjd"]
+
+[ext_resource type="Texture2D" uid="uid://dsrmorbu6wu7y" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/talisMapDecoração/PredioTilemap_5.png" id="2_6mjs7"]
+[ext_resource type="Texture2D" uid="uid://civ5mbgsl0tld" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chãoDoC1.png" id="3_1mcpv"]
+[ext_resource type="Texture2D" uid="uid://dw3ud0f848qci" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Selection_2024-07-20T11.26.41.png" id="4_cewcs"]
+[ext_resource type="PackedScene" uid="uid://bj8bklfvh5ab8" path="res://Scenes/Platafoma.tscn" id="5_5g35m"]
+[ext_resource type="PackedScene" uid="uid://chr8hlbiwknsn" path="res://Scenes/plataforma que sobe.tscn" id="6_c7i0x"]
+[ext_resource type="Texture2D" uid="uid://gv6bue2gyd17" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/backgraunds/Background_6.png" id="6_v08f5"]
+[ext_resource type="PackedScene" uid="uid://dc1xbsmpp5jwt" path="res://Scenes/player.tscn" id="7_8k14w"]
+[ext_resource type="PackedScene" uid="uid://dsc7coy1l3tui" path="res://Scenes/arma.tscn" id="8_hsymr"]
+[ext_resource type="PackedScene" uid="uid://cw8wrlqyofuca" path="res://Scenes/hud.tscn" id="9_p5x48"]
+[ext_resource type="PackedScene" uid="uid://jtwd05u3gy55" path="res://Scenes/missao.tscn" id="10_b7gx7"]
+[ext_resource type="Script" path="res://Scrips/dialogDosInimigos.gd" id="11_8ry2k"]
+[ext_resource type="PackedScene" uid="uid://b2gln5m6fuonb" path="res://Scenes/menu.tscn" id="12_781wg"]
+[ext_resource type="Script" path="res://Scrips/gerador3.gd" id="12_ogxi4"]
+[ext_resource type="PackedScene" uid="uid://bl0acoa2r32k2" path="res://Scenes/mobile_buttons.tscn" id="13_2srqn"]
+[ext_resource type="AudioStream" uid="uid://dabnki2uv2jq6" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/Musicas/retroindiejosh_mysterious-wave.ogg" id="14_jy7wa"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_igpjw"]
+texture = ExtResource("2_6mjs7")
+texture_region_size = Vector2i(32, 32)
+3:1/0 = 0
+4:1/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4teip"]
+texture = ExtResource("3_1mcpv")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+0:1/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mi54p"]
+texture = ExtResource("4_cewcs")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+10:0/0 = 0
+11:0/0 = 0
+12:0/0 = 0
+13:0/0 = 0
+14:0/0 = 0
+15:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+11:1/0 = 0
+12:1/0 = 0
+13:1/0 = 0
+14:1/0 = 0
+15:1/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_sad2l"]
+tile_size = Vector2i(32, 32)
+sources/0 = SubResource("TileSetAtlasSource_igpjw")
+sources/1 = SubResource("TileSetAtlasSource_4teip")
+sources/2 = SubResource("TileSetAtlasSource_mi54p")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_a8g6p"]
+texture = ExtResource("2_6mjs7")
+texture_region_size = Vector2i(32, 32)
+3:1/0 = 0
+4:1/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_dmhps"]
+tile_size = Vector2i(32, 32)
+sources/0 = SubResource("TileSetAtlasSource_a8g6p")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lexbc"]
+size = Vector2(3038.5, 20)
+
+[node name="canaDoInimigo3" type="Node2D"]
+
+[node name="cenarios" type="Node" parent="."]
+
+[node name="talisMap" type="Node" parent="cenarios"]
+
+[node name="chão" type="TileMapLayer" parent="cenarios/talisMap"]
+tile_map_data = PackedByteArray("AAD/////AgAAAAAAAAD//wAAAgAAAAEAAAAAAP//AgABAAAAAAAAAAAAAgABAAEAAAABAP//AgACAAAAAAABAAAAAgACAAEAAAACAP//AgADAAAAAAACAAAAAgADAAEAAAADAP//AgAEAAAAAAADAAAAAgAEAAEAAAAEAP//AgAFAAAAAAAEAAAAAgAFAAEAAAAFAP//AgAGAAAAAAAFAAAAAgAGAAEAAAAGAP//AgAHAAAAAAAGAAAAAgAHAAEAAAAHAP//AgAIAAAAAAAHAAAAAgAIAAEAAAAIAP//AgAJAAAAAAAIAAAAAgAJAAEAAAAJAP//AgAKAAAAAAAJAAAAAgAKAAEAAAAKAP//AgALAAAAAAAKAAAAAgALAAEAAAALAP//AgAMAAAAAAALAAAAAgAMAAEAAAAMAP//AgANAAAAAAAMAAAAAgANAAEAAAANAP//AgAOAAAAAAANAAAAAgAOAAEAAAAOAP//AgAAAAAAAAAOAAAAAgAAAAEAAAAAAAcAAQAAAAAAAAAAAAgAAQAAAAEAAAABAAcAAQAAAAAAAAABAAgAAQAAAAEAAAACAAcAAQAAAAAAAAACAAgAAQAAAAEAAAADAAcAAQAAAAAAAAADAAgAAQAAAAEAAAAEAAcAAQAAAAAAAAAEAAgAAQAAAAEAAAAFAAcAAQAAAAAAAAAFAAgAAQAAAAEAAAAGAAcAAQAAAAAAAAAGAAgAAQAAAAEAAAAHAAcAAQAAAAAAAAAHAAgAAQAAAAEAAAAIAAcAAQAAAAAAAAAIAAgAAQAAAAEAAAAJAAcAAQAAAAAAAAAJAAgAAQAAAAEAAAAKAAcAAQAAAAAAAAAKAAgAAQAAAAEAAAALAAcAAQAAAAAAAAALAAgAAQAAAAEAAAAMAAcAAQAAAAAAAAAMAAgAAQAAAAEAAAANAAcAAQAAAAAAAAANAAgAAQAAAAEAAAD//wcAAQAAAAAAAAD//wgAAQAAAAEAAAAOAAcAAQAAAAAAAAAOAAgAAQAAAAEAAAAPAAcAAQAAAAAAAAAPAAgAAQAAAAEAAABOAAcAAQAAAAAAAABOAAgAAQAAAAEAAAAQAAcAAQAAAAAAAAAQAAgAAQAAAAEAAAARAAcAAQAAAAAAAAARAAgAAQAAAAEAAAASAAcAAQAAAAAAAAASAAgAAQAAAAEAAAATAAcAAQAAAAAA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AABFAP//AgAIAAAAAABFAAAAAgAIAAEAAABGAP//AgAJAAAAAABGAAAAAgAJAAEAAABHAP//AgAKAAAAAABHAAAAAgAKAAEAAABIAP//AgALAAAAAABIAAAAAgALAAEAAABJAP//AgAMAAAAAABJAAAAAgAMAAEAAABKAP//AgANAAAAAABKAAAAAgANAAEAAABLAP//AgAOAAAAAABLAAAAAgAOAAEAAABMAP//AgAAAAAAAABMAAAAAgAAAAEAAABNAP//AgABAAAAAABNAAAAAgABAAEAAABOAP//AgACAAAAAABOAAAAAgACAAEAAABPAP//AgADAAAAAABPAAAAAgADAAEAAABQAP//AgAEAAAAAABQAAAAAgAEAAEAAABRAP//AgAFAAAAAABRAAAAAgAFAAEAAABSAP//AgAGAAAAAABSAAAAAgAGAAEAAABTAP//AgAHAAAAAABTAAAAAgAHAAEAAABUAP//AgAIAAAAAABUAAAAAgAIAAEAAABVAP//AgAJAAAAAABVAAAAAgAJAAEAAABWAP//AgAKAAAAAABWAAAAAgAKAAEAAABXAP//AgALAAAAAABXAAAAAgALAAEAAABYAP//AgAMAAAAAABYAAAAAgAMAAEAAABZAP//AgANAAAAAABZAAAAAgANAAEAAABaAP//AgAOAAAAAABaAAAAAgAOAAEAAABbAP//AgAPAAAAAABbAAAAAgAPAAEAAAA=")
+tile_set = SubResource("TileSet_sad2l")
+
+[node name="decoração" type="TileMapLayer" parent="cenarios/talisMap"]
+tile_map_data = PackedByteArray("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")
+tile_set = SubResource("TileSet_dmhps")
+
+[node name="COLIÇÃO" type="Node2D" parent="cenarios"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="cenarios/COLIÇÃO"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cenarios/COLIÇÃO/StaticBody2D"]
+position = Vector2(1415, 234)
+shape = SubResource("RectangleShape2D_lexbc")
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="cenarios/COLIÇÃO"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cenarios/COLIÇÃO/StaticBody2D3"]
+position = Vector2(-7, 224)
+rotation = -1.5593
+shape = SubResource("RectangleShape2D_lexbc")
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="cenarios/COLIÇÃO"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cenarios/COLIÇÃO/StaticBody2D4"]
+position = Vector2(1834, 521)
+rotation = -1.5593
+shape = SubResource("RectangleShape2D_lexbc")
+
+[node name="platafomas" type="Node2D" parent="cenarios"]
+
+[node name="StaticBody2D" parent="cenarios/platafomas" instance=ExtResource("5_5g35m")]
+position = Vector2(394, 160)
+
+[node name="StaticBody2D2" parent="cenarios/platafomas" instance=ExtResource("5_5g35m")]
+position = Vector2(529, 143)
+
+[node name="plataforma que sobe2" parent="cenarios/platafomas" instance=ExtResource("6_c7i0x")]
+position = Vector2(696, 71)
+speed = 1.0
+
+[node name="StaticBody2D3" parent="cenarios/platafomas" instance=ExtResource("5_5g35m")]
+position = Vector2(812, 141)
+
+[node name="StaticBody2D4" parent="cenarios/platafomas" instance=ExtResource("5_5g35m")]
+position = Vector2(1660, 110)
+
+[node name="plataforma que sobe3" parent="cenarios/platafomas" instance=ExtResource("6_c7i0x")]
+position = Vector2(997, 72)
+speed = 1.0
+
+[node name="plataforma que sobe4" parent="cenarios/platafomas" instance=ExtResource("6_c7i0x")]
+position = Vector2(1143, 49)
+speed = 1.0
+
+[node name="plataforma que sobe5" parent="cenarios/platafomas" instance=ExtResource("6_c7i0x")]
+position = Vector2(1304, 90)
+speed = 1.0
+
+[node name="StaticBody2D5" parent="cenarios/platafomas" instance=ExtResource("5_5g35m")]
+position = Vector2(1393, 137)
+
+[node name="StaticBody2D6" parent="cenarios/platafomas" instance=ExtResource("5_5g35m")]
+position = Vector2(1533, 150)
+
+[node name="StaticBody2D7" parent="cenarios/platafomas" instance=ExtResource("5_5g35m")]
+position = Vector2(2567, 97)
+
+[node name="plataforma que sobe6" parent="cenarios/platafomas" instance=ExtResource("6_c7i0x")]
+position = Vector2(1904, 59)
+speed = 1.0
+
+[node name="plataforma que sobe7" parent="cenarios/platafomas" instance=ExtResource("6_c7i0x")]
+position = Vector2(2211, 77)
+speed = 1.0
+
+[node name="StaticBody2D8" parent="cenarios/platafomas" instance=ExtResource("5_5g35m")]
+position = Vector2(2300, 124)
+
+[node name="StaticBody2D9" parent="cenarios/platafomas" instance=ExtResource("5_5g35m")]
+position = Vector2(2440, 137)
+
+[node name="Backgraund" type="Node2D" parent="cenarios"]
+
+[node name="Background6" type="Sprite2D" parent="cenarios/Backgraund"]
+z_index = -1
+position = Vector2(196.25, 153.75)
+scale = Vector2(1.53711, 1.17383)
+texture = ExtResource("6_v08f5")
+
+[node name="Background7" type="Sprite2D" parent="cenarios/Backgraund"]
+z_index = -1
+position = Vector2(589, 154)
+scale = Vector2(1.53711, 1.17383)
+texture = ExtResource("6_v08f5")
+
+[node name="Background8" type="Sprite2D" parent="cenarios/Backgraund"]
+z_index = -1
+position = Vector2(973.75, 154.25)
+scale = Vector2(1.53711, 1.17383)
+texture = ExtResource("6_v08f5")
+
+[node name="Background9" type="Sprite2D" parent="cenarios/Backgraund"]
+z_index = -1
+position = Vector2(1366.5, 154.5)
+scale = Vector2(1.53711, 1.17383)
+texture = ExtResource("6_v08f5")
+
+[node name="Background10" type="Sprite2D" parent="cenarios/Backgraund"]
+z_index = -1
+position = Vector2(1604.75, 154.25)
+scale = Vector2(1.53711, 1.17383)
+texture = ExtResource("6_v08f5")
+
+[node name="Background11" type="Sprite2D" parent="cenarios/Backgraund"]
+z_index = -1
+position = Vector2(1997.5, 154.5)
+scale = Vector2(1.53711, 1.17383)
+texture = ExtResource("6_v08f5")
+
+[node name="Background12" type="Sprite2D" parent="cenarios/Backgraund"]
+z_index = -1
+position = Vector2(2382.25, 154.75)
+scale = Vector2(1.53711, 1.17383)
+texture = ExtResource("6_v08f5")
+
+[node name="Background13" type="Sprite2D" parent="cenarios/Backgraund"]
+z_index = -1
+position = Vector2(2775, 155)
+scale = Vector2(1.53711, 1.17383)
+texture = ExtResource("6_v08f5")
+
+[node name="Player" parent="." instance=ExtResource("7_8k14w")]
+z_index = 3
+position = Vector2(26, 200)
+collision_mask = 9
+regeneraVida = 1.0
+
+[node name="arma" parent="Player" instance=ExtResource("8_hsymr")]
+position = Vector2(5, -36)
+rotation = -2.51194
+
+[node name="HUD" type="Node" parent="."]
+
+[node name="hud" parent="HUD" instance=ExtResource("9_p5x48")]
+playe_path = NodePath("../../Player")
+
+[node name="missçao" parent="HUD" node_paths=PackedStringArray("_player") instance=ExtResource("10_b7gx7")]
+texte = "Mande P. Futuro "
+_player = NodePath("../../Player")
+valor = 30
+
+[node name="dialog" type="Node2D" parent="HUD" node_paths=PackedStringArray("_player", "hud")]
+script = ExtResource("11_8ry2k")
+_player = NodePath("../../Player")
+hud = NodePath("hud")
+
+[node name="hud" type="CanvasLayer" parent="HUD/dialog"]
+
+[node name="menu" type="CanvasLayer" parent="HUD"]
+
+[node name="MainMenu" parent="HUD/menu" instance=ExtResource("12_781wg")]
+visible = false
+
+[node name="mobile buttons" parent="HUD" instance=ExtResource("13_2srqn")]
+
+[node name="GERADOR" type="Node2D" parent="."]
+position = Vector2(-3, 1)
+script = ExtResource("12_ogxi4")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("14_jy7wa")
+autoplay = true
+bus = &"Music"
+parameters/looping = true
+
+[connection signal="repetir" from="HUD/hud" to="GERADOR" method="_on_hud_repetir"]

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dxpt0tbokobh4"
+path="res://.godot/imported/RVS music 3.ogg-bc9e299c68b569ef251db1fa417a544e.oggvorbisstr"
+
+[deps]
+
+source_file="res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/RVS music 3.ogg"
+dest_files=["res://.godot/imported/RVS music 3.ogg-bc9e299c68b569ef251db1fa417a544e.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://dsc7coy1l3tui"]
+
+[ext_resource type="Script" path="res://Scrips/arma.gd" id="1_fs0mq"]
+[ext_resource type="Texture2D" uid="uid://h44xvamn0dc" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/obejtos/Selection_2024-10-15T15.09.25.png" id="2_rck3h"]
+[ext_resource type="AudioStream" uid="uid://dp7nipuj0etkm" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/Rifle de gelo.ogg" id="3_vaeig"]
+
+[node name="arma" type="Node2D"]
+script = ExtResource("1_fs0mq")
+
+[node name="External(2)" type="Sprite2D" parent="."]
+scale = Vector2(1.76306, 1.82644)
+texture = ExtResource("2_rck3h")
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(12, -1)
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.2
+one_shot = true
+
+[node name="Audio" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_vaeig")

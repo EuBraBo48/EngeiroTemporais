@@ -1,0 +1,260 @@
+[gd_scene load_steps=24 format=4 uid="uid://b5c1wlrhvp7ib"]
+
+[ext_resource type="PackedScene" uid="uid://csxrmmmm0slyg" path="res://Scenes/fundo 1.tscn" id="1_ntevw"]
+[ext_resource type="PackedScene" uid="uid://dbq5b0stuslg0" path="res://Scenes/area_da_porta.tscn" id="1_rg3ep"]
+[ext_resource type="Texture2D" uid="uid://civ5mbgsl0tld" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chãoDoC1.png" id="2_55235"]
+[ext_resource type="Texture2D" uid="uid://ddsauoltdqr0e" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/talisMapDecoração/BackgroundQuarto_8.png" id="3_7d2nu"]
+[ext_resource type="Texture2D" uid="uid://die58agbfymrm" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/ChaoDoQuarto.png" id="4_63tij"]
+[ext_resource type="Texture2D" uid="uid://b3wo4i5ibc1n7" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/talisMapDecoração/BackgroundQuarto_6-1.png" id="5_4ovfx"]
+[ext_resource type="PackedScene" uid="uid://dc1xbsmpp5jwt" path="res://Scenes/player.tscn" id="6_rw00l"]
+[ext_resource type="PackedScene" uid="uid://jtwd05u3gy55" path="res://Scenes/missao.tscn" id="8_iv3n5"]
+[ext_resource type="PackedScene" uid="uid://chr8hlbiwknsn" path="res://Scenes/plataforma que sobe.tscn" id="9_os8hr"]
+[ext_resource type="PackedScene" uid="uid://bj8bklfvh5ab8" path="res://Scenes/Platafoma.tscn" id="10_3lhxj"]
+[ext_resource type="PackedScene" uid="uid://bl0acoa2r32k2" path="res://Scenes/mobile_buttons.tscn" id="11_6eqf7"]
+[ext_resource type="PackedScene" uid="uid://civjclcg8wkcb" path="res://Scenes/feramentas.tscn" id="11_qafwy"]
+[ext_resource type="PackedScene" uid="uid://bqqrfpirldmha" path="res://Scenes/maquina_do_tempo.tscn" id="12_is47l"]
+[ext_resource type="PackedScene" uid="uid://b2gln5m6fuonb" path="res://Scenes/menu.tscn" id="13_jkqq4"]
+[ext_resource type="AudioStream" uid="uid://b6v28u5ot682f" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/Musicas/retroindiejosh_stasis.ogg" id="14_ecxdx"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8tpwb"]
+texture = ExtResource("2_55235")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+0:1/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ej3kr"]
+texture = ExtResource("3_7d2nu")
+texture_region_size = Vector2i(32, 32)
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+5:2/0 = 0
+7:2/0 = 0
+0:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+3:6/0 = 0
+7:6/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_s3td1"]
+texture = ExtResource("4_63tij")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_6wor5"]
+tile_size = Vector2i(32, 32)
+sources/0 = SubResource("TileSetAtlasSource_8tpwb")
+sources/1 = SubResource("TileSetAtlasSource_ej3kr")
+sources/2 = SubResource("TileSetAtlasSource_s3td1")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ngp5i"]
+texture = ExtResource("3_7d2nu")
+texture_region_size = Vector2i(32, 32)
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+5:2/0 = 0
+7:2/0 = 0
+0:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+3:6/0 = 0
+7:6/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_g0l06"]
+texture = ExtResource("5_4ovfx")
+texture_region_size = Vector2i(32, 32)
+0:2/0 = 0
+2:2/0 = 0
+5:2/0 = 0
+7:2/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+7:6/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_0akqg"]
+tile_size = Vector2i(32, 32)
+sources/0 = SubResource("TileSetAtlasSource_ngp5i")
+sources/1 = SubResource("TileSetAtlasSource_g0l06")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hbdkw"]
+size = Vector2(1904.5, 20)
+
+[node name="cena2" type="Node2D"]
+metadata/_edit_horizontal_guides_ = [90.0]
+
+[node name="cenario" type="Node2D" parent="."]
+
+[node name="cenario" parent="cenario" instance=ExtResource("1_ntevw")]
+
+[node name="TileMaps" type="TileMapLayer" parent="cenario"]
+
+[node name="chão" type="TileMapLayer" parent="cenario/TileMaps"]
+tile_map_data = PackedByteArray("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ADARAAAAAAAAAAAAADARAP//AAAAAAEAADASAAAAAAAAAAAAADASAP//AAAAAAEAADATAAAAAAAAAAAAADATAP//AAAAAAEAADAUAAAAAAAAAAAAADAUAP//AAAAAAEAADAVAAAAAAAAAAAAADAVAP//AAAAAAEAADAWAAAAAAAAAAAAADAWAP//AAAAAAEAADAXAAAAAAAAAAAAADAXAP//AAAAAAEAADAYAAAAAAAAAAAAADAYAP//AAAAAAEAADAZAAAAAAAAAAAAADAZAP//AAAAAAEAADAaAAAAAAAAAAAAADAaAP//AAAAAAEAADAbAAAAAAAAAAAAADAbAP//AAAAAAEAADAcAAAAAAAAAAAAADAcAP//AAAAAAEAADAdAAAAAAAAAAAAADAdAP//AAAAAAEAADAeAAAAAAAAAAAAADAeAP//AAAAAAEAADAfAAAAAAAAAAAAADAfAP//AAAAAAEAADAgAAAAAAAAAAAAADAgAP//AAAAAAEAADAhAAAAAAAAAAAAADAhAP//AAAAAAEAADAiAAAAAAAAAAAAADAiAP//AAAAAAEAADAjAAAAAAAAAAAAADAjAP//AAAAAAEAADAkAAAAAAAAAAAAADAkAP//AAAAAAEAADAlAAAAAAAAAAAAADAlAP//AAAAAAEAADAmAAAAAAAAAAAAADAmAP//AAAAAAEAADArAAAAAAAAAAAAADArAP//AAAAAAEAADAnAAAAAAAAAAAAADAnAP//AAAAAAEAADAoAAAAAAAAAAAAADAoAP//AAAAAAEAADApAAAAAAAAAAAAADApAP//AAAAAAEAADAqAAAAAAAAAAAAADAqAP//AAAAAAEAADAsAAAAAAAAAAAAADAsAP//AAAAAAEAADAtAAAAAAAAAAAAADAtAP//AAAAAAEAADAuAAAAAAAAAAAAADAuAP//AAAAAAEAADAvAAAAAAAAAAAAADAvAP//AAAAAAEAADAwAAAAAAAAAAAAADAwAP//AAAAAAEAADAxAAAAAAAAAAAAADAxAP//AAAAAAEAADAyAAAAAAAAAAAAADAyAP//AAAAAAEAADAzAAAAAAAAAAAAADAzAP//AAAAAAEAADA0AAAAAAAAAAAAADA0AP//AAAAAAEAADA1AAAAAAAAAAAAADA1AP//AAAAAAEAADA2AAAAAAAAAAAAADA2AP//AAAAAAEAADA3AAAAAAAAAAAAADA3AP//AAAAAAEAADA4AAAAAAAAAAAAADA4AP//AAAAAAEAADD//wAAAAAAAAAAADD/////AAAAAAEAADD+/wAAAAAAAAAAADD+////AAAAAAEAADD9/wAAAAAAAAAAADD9////AAAAAAEAADD8/wAAAAAAAAAAADD8////AAAAAAEAADD7/wAAAAAAAAAAADD7////AAAAAAEAADD7/wYAAgAAAAAAAAD8/wYAAgAAAAAAAAD9/wYAAgAAAAAAAAD+/wYAAgAAAAAAAAD4/wYAAgAAAAAAAAD5/wYAAgAAAAAAAAD6/wYAAgAAAAAAAAD4/wcAAgAAAAAAADD5/wcAAgAAAAAAADD6/wcAAgAAAAAAADD7/wcAAgAAAAAAADD8/wcAAgAAAAAAADD9/wcAAgAAAAAAADD+/wcAAgAAAAAAADD6/wAAAAAAAAAAADD6////AAAAAAEAADD5/wAAAAAAAAAAADD5////AAAAAAEAADD4/wAAAAAAAAAAADD4////AAAAAAEAADA=")
+tile_set = SubResource("TileSet_6wor5")
+
+[node name="DECORAÇÃO" type="TileMapLayer" parent="cenario/TileMaps"]
+tile_map_data = PackedByteArray("AAD4/wEAAAADAAIAAAD6/wEAAAADAAIAAAD8/wEAAAADAAIAAAD+/wEAAAADAAIAAAAAAAEAAAADAAIAAAACAAEAAAADAAIAAAAEAAEAAAADAAIAAAAGAAEAAAADAAIAAAAIAAEAAAADAAIAAAAKAAEAAAADAAIAAAAMAAEAAAADAAIAAAAOAAEAAAADAAIAAAAQAAEAAAADAAIAAAASAAEAAAADAAIAAAAUAAEAAAADAAIAAAAWAAEAAAADAAIAAAAYAAEAAAADAAIAAAAaAAEAAAADAAIAAAAcAAEAAAADAAIAAAAeAAEAAAADAAIAAAAgAAEAAAADAAIAAAAiAAEAAAADAAIAAAAkAAEAAAADAAIAAAAmAAEAAAADAAIAAAAoAAEAAAADAAIAAAAqAAEAAAADAAIAAAAsAAEAAAADAAIAAAAuAAEAAAADAAIAAAAwAAEAAAADAAIAAAAyAAEAAAADAAIAAAA0AAEAAAADAAIAAAA2AAEAAAADAAIAAAA4AAEAAAADAAIAAAAGAAQAAAACAAQAAAAGAAUAAAACAAUAAAAHAAQAAAADAAQAAAAHAAUAAAADAAUAAAAIAAQAAAAEAAQAAAAIAAUAAAAEAAUAAAAJAAQAAAAFAAQAAAAJAAUAAAAFAAUAAAAKAAQAAAAGAAQAAAAKAAUAAAAGAAUAAAALAAUAAAAHAAUAAAAOAAQAAAACAAQAAAAOAAUAAAACAAUAAAAPAAQAAAADAAQAAAAPAAUAAAADAAUAAAARAAQAAAAGAAQAAAARAAUAAAAGAAUAAAASAAUAAAAHAAUAAAAMAAMAAAAAAAQAAAAMAAQAAAAAAAUAAAANAAMAAAABAAQAAAANAAQAAAABAAUAAAATAAMAAAAAAAQAAAATAAQAAAAAAAUAAAAUAAMAAAABAAQAAAAUAAQAAAABAAUAAAAGAAMAAAAAAAQAAAAHAAMAAAABAAQAAAACAAMAAAAAAAQAAAACAAQAAAAAAAUAAAADAAMAAAABAAQAAAADAAQAAAABAAUAAAAXAAMAAAAAAAQAAAAXAAQAAQAEAAQAAAAYAAMAAAABAAQAAAAYAAQAAQAFAAQAAAAbAAMAAAAAAAQAAAAbAAQAAAAAAAUAAAAcAAMAAAABAAQAAAAcAAQAAAABAAUAAAAgAAMAAAAAAAQAAAAgAAQAAAACAAQAAAAhAAMAAAABAAQAAAAhAAQAAAADAAQAAAAAAAQAAQAAAAQAAAAAAAUAAQAAAAUAAAAjAAMAAQABAAQAAAAkAAMAAQACAAQAAAAPAAMAAQABAAQAAAAQAAMAAQACAAQAAAATAAUAAQABAAUAAAAUAAUAAQACAAUAAAAWAAQAAQADAAQAAAAWAAUAAQADAAUAAAAXAAUAAQAEAAUAAAAYAAUAAQAFAAUAAAAZAAQAAQAGAAQAAAAZAAUAAQAGAAUAAAAaAAQAAQAHAAQAAAAaAAUAAQAHAAUAAAAoAAQAAQABAAQAAAAoAAUAAQABAAUAAAApAAQAAQACAAQAAAApAAUAAQACAAUAAAAqAAQAAQADAAQAAAAqAAUAAQADAAUAAAArAAQAAQAEAAQAAAArAAUAAQAEAAUAAAAsAAQAAQAFAAQAAAAsAAUAAQAFAAUAAAAtAAQAAQAGAAQAAAAtAAUAAQAGAAUAAAAuAAQAAQAHAAQAAAAuAAUAAQAHAAUAAAAgAAUAAAACAAUAAAAhAAUAAAADAAUAAAAiAAQAAAAEAAQAAAAiAAUAAAAEAAUAAAAjAAQAAAAFAAQAAAAjAAUAAAAFAAUAAAAkAAQAAAAGAAQAAAAkAAUAAAAGAAUAAAAlAAUAAAAHAAUAAAAyAAQAAAAGAAQAAAAyAAUAAAAGAAUAAAAzAAUAAAAHAAUAAAA=")
+tile_set = SubResource("TileSet_0akqg")
+
+[node name="COLIÇÃO" type="Node2D" parent="cenario"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="cenario/COLIÇÃO"]
+collision_mask = 6
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cenario/COLIÇÃO/StaticBody2D"]
+position = Vector2(877.75, 204)
+shape = SubResource("RectangleShape2D_hbdkw")
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="cenario/COLIÇÃO"]
+collision_mask = 6
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cenario/COLIÇÃO/StaticBody2D3"]
+position = Vector2(-7, 224)
+rotation = -1.5593
+shape = SubResource("RectangleShape2D_hbdkw")
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="cenario/COLIÇÃO"]
+collision_mask = 6
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cenario/COLIÇÃO/StaticBody2D4"]
+position = Vector2(1829, 349)
+rotation = -1.5593
+shape = SubResource("RectangleShape2D_hbdkw")
+
+[node name="AreaDaPorta" parent="cenario/COLIÇÃO" instance=ExtResource("1_rg3ep")]
+z_index = 1
+position = Vector2(15, 170)
+collision_layer = 9
+collision_mask = 10
+porta = "res://Scenes/cena_1.tscn"
+
+[node name="platafomas" type="Node2D" parent="cenario"]
+
+[node name="StaticBody2D" parent="cenario/platafomas" instance=ExtResource("10_3lhxj")]
+position = Vector2(395, 166)
+
+[node name="StaticBody2D2" parent="cenario/platafomas" instance=ExtResource("10_3lhxj")]
+position = Vector2(529, 143)
+
+[node name="plataforma que sobe2" parent="cenario/platafomas" instance=ExtResource("9_os8hr")]
+position = Vector2(696, 71)
+speed = 1.0
+
+[node name="StaticBody2D3" parent="cenario/platafomas" instance=ExtResource("10_3lhxj")]
+position = Vector2(812, 141)
+
+[node name="StaticBody2D4" parent="cenario/platafomas" instance=ExtResource("10_3lhxj")]
+position = Vector2(1660, 110)
+
+[node name="plataforma que sobe3" parent="cenario/platafomas" instance=ExtResource("9_os8hr")]
+position = Vector2(997, 72)
+speed = 1.0
+
+[node name="plataforma que sobe4" parent="cenario/platafomas" instance=ExtResource("9_os8hr")]
+position = Vector2(1143, 49)
+speed = 1.0
+
+[node name="plataforma que sobe5" parent="cenario/platafomas" instance=ExtResource("9_os8hr")]
+position = Vector2(1304, 90)
+speed = 1.0
+
+[node name="StaticBody2D5" parent="cenario/platafomas" instance=ExtResource("10_3lhxj")]
+position = Vector2(1393, 137)
+
+[node name="StaticBody2D6" parent="cenario/platafomas" instance=ExtResource("10_3lhxj")]
+position = Vector2(1533, 150)
+
+[node name="feragemtas" type="Node" parent="cenario"]
+
+[node name="Ferementa" parent="cenario/feragemtas" instance=ExtResource("11_qafwy")]
+position = Vector2(1276, 77)
+collision_layer = 8
+collision_mask = 10
+
+[node name="Ferementa2" parent="cenario/feragemtas" instance=ExtResource("11_qafwy")]
+position = Vector2(975, 58)
+collision_layer = 8
+collision_mask = 2
+
+[node name="Ferementa3" parent="cenario/feragemtas" instance=ExtResource("11_qafwy")]
+position = Vector2(291, 177)
+collision_layer = 8
+collision_mask = 2
+
+[node name="Ferementa4" parent="cenario/feragemtas" instance=ExtResource("11_qafwy")]
+position = Vector2(571, 123)
+collision_layer = 8
+collision_mask = 2
+
+[node name="Ferementa5" parent="cenario/feragemtas" instance=ExtResource("11_qafwy")]
+position = Vector2(1708, 85)
+collision_layer = 8
+collision_mask = 2
+
+[node name="maquinaDoTempo" parent="cenario" instance=ExtResource("12_is47l")]
+z_index = -1
+position = Vector2(141, 165)
+collision_layer = 8
+collision_mask = 10
+
+[node name="mobile buttons" parent="cenario" instance=ExtResource("11_6eqf7")]
+
+[node name="Player" parent="." instance=ExtResource("6_rw00l")]
+position = Vector2(37, 170)
+collision_mask = 15
+velovi = 80.0
+
+[node name="missão" parent="." node_paths=PackedStringArray("_player") instance=ExtResource("8_iv3n5")]
+_player = NodePath("../Player")
+valor = 5
+
+[node name="menu" type="CanvasLayer" parent="."]
+
+[node name="MainMenu" parent="menu" instance=ExtResource("13_jkqq4")]
+visible = false
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("14_ecxdx")
+autoplay = true
+parameters/looping = true

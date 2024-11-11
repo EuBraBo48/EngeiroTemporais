@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dd8seb3r4xt5j"
+path="res://.godot/imported/Sweet Home.ogg-1d5e8461b5be8f2752eac4adb9ecf41a.oggvorbisstr"
+
+[deps]
+
+source_file="res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/Musicas/Sweet Home.ogg"
+dest_files=["res://.godot/imported/Sweet Home.ogg-1d5e8461b5be8f2752eac4adb9ecf41a.oggvorbisstr"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

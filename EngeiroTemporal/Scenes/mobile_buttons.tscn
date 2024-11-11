@@ -1,0 +1,106 @@
+[gd_scene load_steps=12 format=3 uid="uid://bl0acoa2r32k2"]
+
+[ext_resource type="Texture2D" uid="uid://b4kwnaisk6kqh" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/butão/ui_buttons_arrow_up_PRESSED.png" id="1_yb2gs"]
+[ext_resource type="Texture2D" uid="uid://c7n8mtr5bnfuj" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/butão/ui_buttons_arrow_up_NORMAL.png" id="2_0dlua"]
+[ext_resource type="Texture2D" uid="uid://p3ielp2wh0br" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/butão/ui_buttons_arrow_left_PRESSED.png" id="3_tdcoy"]
+[ext_resource type="Texture2D" uid="uid://pvy7mdxih7pd" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/butão/ui_buttons_arrow_left_NORMAL.png" id="4_d57wm"]
+[ext_resource type="Texture2D" uid="uid://c2sgejlu5qip0" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/butão/ui_buttons_arrow_right_PRESSED.png" id="5_mxymc"]
+[ext_resource type="Texture2D" uid="uid://clxcsxmdqkv6d" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/butão/ui_buttons_arrow_right_NORMAL.png" id="6_oq81m"]
+[ext_resource type="Texture2D" uid="uid://s2nn8fwkg22k" path="res://Sprits/Metal Buttons Icons.png" id="7_pukms"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gmhpg"]
+size = Vector2(30, 28)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p8ucp"]
+size = Vector2(30, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_edqe0"]
+atlas = ExtResource("7_pukms")
+region = Rect2(288, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_lg3d1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_edqe0")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="mobile buttons" type="CanvasLayer"]
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="."]
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -148.0
+offset_top = -40.0
+offset_right = 15.0
+offset_bottom = 24.0
+grow_horizontal = 0
+grow_vertical = 0
+scale = Vector2(1.3, 1.3)
+alignment = 1
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="HBoxContainer2"]
+position = Vector2(76.9231, -7.69231)
+texture_normal = ExtResource("1_yb2gs")
+texture_pressed = ExtResource("2_0dlua")
+shape = SubResource("RectangleShape2D_gmhpg")
+passby_press = true
+action = "pulo"
+visibility_mode = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = -1.0
+offset_top = -72.0
+offset_right = 103.0
+offset_bottom = -8.0
+grow_vertical = 0
+scale = Vector2(1.3, 1.3)
+size_flags_horizontal = 0
+theme_override_constants/separation = 40
+alignment = 1
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="HBoxContainer"]
+position = Vector2(16, 16)
+texture_normal = ExtResource("3_tdcoy")
+texture_pressed = ExtResource("4_d57wm")
+shape = SubResource("RectangleShape2D_p8ucp")
+action = "a"
+visibility_mode = 1
+
+[node name="TouchScreenButton2" type="TouchScreenButton" parent="HBoxContainer"]
+position = Vector2(77.6923, 15.3846)
+texture_normal = ExtResource("5_mxymc")
+texture_pressed = ExtResource("6_oq81m")
+shape = SubResource("RectangleShape2D_p8ucp")
+action = "d"
+visibility_mode = 1
+
+[node name="pause" type="TextureButton" parent="."]
+process_mode = 3
+offset_left = 1073.0
+offset_top = 37.0
+offset_right = 1137.0
+offset_bottom = 101.0
+scale = Vector2(0.8, 0.8)
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="pause"]
+position = Vector2(-838.75, -22.5)
+shape = SubResource("RectangleShape2D_p8ucp")
+action = "pause"
+visibility_mode = 1
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="pause/TouchScreenButton"]
+position = Vector2(-1.24999, -1.25)
+scale = Vector2(1, 1.01562)
+sprite_frames = SubResource("SpriteFrames_lg3d1")
+frame_progress = 0.682469

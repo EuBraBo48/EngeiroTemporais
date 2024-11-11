@@ -1,0 +1,159 @@
+[gd_scene load_steps=20 format=4 uid="uid://digg25gjfss6a"]
+
+[ext_resource type="PackedScene" uid="uid://dbq5b0stuslg0" path="res://Scenes/area_da_porta.tscn" id="1_3mlhw"]
+[ext_resource type="Texture2D" uid="uid://d1ucwwg3aix0b" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/backgraunds/BackgroundQuarto_5.png" id="1_inw8b"]
+[ext_resource type="Texture2D" uid="uid://die58agbfymrm" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/ChaoDoQuarto.png" id="2_1vdq6"]
+[ext_resource type="Texture2D" uid="uid://bbxr55iyjqf4g" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/Plataforma.png" id="3_ar37k"]
+[ext_resource type="Texture2D" uid="uid://b6ux0k3yd24rq" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/TetoDoQuarto_1-1.png" id="4_ljvfq"]
+[ext_resource type="Texture2D" uid="uid://civ5mbgsl0tld" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/chãoDoC1.png" id="5_3stcw"]
+[ext_resource type="Texture2D" uid="uid://b3wo4i5ibc1n7" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/cenarios/talisMapDecoração/BackgroundQuarto_6-1.png" id="6_w5yyw"]
+[ext_resource type="PackedScene" uid="uid://dc1xbsmpp5jwt" path="res://Scenes/player.tscn" id="7_1rlms"]
+[ext_resource type="PackedScene" uid="uid://bl0acoa2r32k2" path="res://Scenes/mobile_buttons.tscn" id="8_3s75g"]
+[ext_resource type="PackedScene" uid="uid://bwb6u55n48aik" path="res://Scenes/IAdemar.tscn" id="8_kaqyb"]
+[ext_resource type="PackedScene" uid="uid://b2gln5m6fuonb" path="res://Scenes/menu.tscn" id="10_x8cpn"]
+[ext_resource type="AudioStream" uid="uid://dkiqdq8qm27st" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/Musicas/retroindiejosh_fight-with-power.ogg" id="11_hoti6"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tg1vx"]
+texture = ExtResource("2_1vdq6")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bqies"]
+texture = ExtResource("3_ar37k")
+texture_region_size = Vector2i(32, 32)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tuef7"]
+texture = ExtResource("4_ljvfq")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uoulc"]
+texture = ExtResource("5_3stcw")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+0:1/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nm853"]
+texture = ExtResource("6_w5yyw")
+texture_region_size = Vector2i(32, 32)
+0:2/0 = 0
+2:2/0 = 0
+5:2/0 = 0
+7:2/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+7:6/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_083m7"]
+tile_size = Vector2i(32, 32)
+uv_clipping = true
+sources/1 = SubResource("TileSetAtlasSource_tg1vx")
+sources/2 = SubResource("TileSetAtlasSource_bqies")
+sources/3 = SubResource("TileSetAtlasSource_tuef7")
+sources/4 = SubResource("TileSetAtlasSource_uoulc")
+sources/5 = SubResource("TileSetAtlasSource_nm853")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ojabw"]
+size = Vector2(1113, 20)
+
+[node name="cena1" type="Node2D"]
+metadata/_edit_horizontal_guides_ = [-40.0]
+metadata/_edit_vertical_guides_ = [3.0, 605.0]
+
+[node name="cenariu" type="Node" parent="."]
+
+[node name="BackgroundQuarto5" type="Sprite2D" parent="cenariu"]
+light_mask = 2
+visibility_layer = 2
+z_index = -2
+position = Vector2(226.625, 129.203)
+scale = Vector2(2.19238, 1.2594)
+texture = ExtResource("1_inw8b")
+
+[node name="talisMap" type="Node2D" parent="cenariu" groups=["pl"]]
+light_mask = 5
+visibility_layer = 5
+
+[node name="chão" type="TileMapLayer" parent="cenariu/talisMap"]
+use_parent_material = true
+tile_map_data = PackedByteArray("AAAAAAcAAQAAAAAAAAABAAcAAQAAAAAAAAACAAcAAQAAAAAAAAADAAcAAQAAAAAAAAAEAAcAAQAAAAAAAAAFAAcAAQAAAAAAAAAGAAcAAQAAAAAAAAAHAAcAAQAAAAAAAAAIAAcAAQAAAAAAAAAKAAcAAQAAAAAAAAALAAcAAQAAAAAAAAAMAAcAAQAAAAAAAAANAAcAAQAAAAAAAAAJAAcAAQAAAAAAAAAAAAgAAQAAAAAAADABAAgAAQAAAAAAADACAAgAAQAAAAAAADADAAgAAQAAAAAAADAEAAgAAQAAAAAAADAFAAgAAQAAAAAAADAGAAgAAQAAAAAAADAHAAgAAQAAAAAAADAIAAgAAQAAAAAAADAJAAgAAQAAAAAAADAKAAgAAQAAAAAAADALAAgAAQAAAAAAADAMAAgAAQAAAAAAADANAAgAAQAAAAAAADAAAAEABAAAAAAAADAAAAAABAAAAAEAADABAAEABAAAAAAAADABAAAABAAAAAEAADACAAEABAAAAAAAADACAAAABAAAAAEAADADAAEABAAAAAAAADADAAAABAAAAAEAADAEAAEABAAAAAAAADAEAAAABAAAAAEAADAFAAEABAAAAAAAADAFAAAABAAAAAEAADAGAAEABAAAAAAAADAGAAAABAAAAAEAADAHAAEABAAAAAAAADAHAAAABAAAAAEAADAIAAEABAAAAAAAADAIAAAABAAAAAEAADAJAAEABAAAAAAAADAJAAAABAAAAAEAADAKAAEABAAAAAAAADAKAAAABAAAAAEAADALAAEABAAAAAAAADALAAAABAAAAAEAADAMAAEABAAAAAAAADAMAAAABAAAAAEAADANAAEABAAAAAAAADANAAAABAAAAAEAADAAAP//BAAAAAEAAAABAP//BAAAAAEAAAACAP//BAAAAAEAAAADAP//BAAAAAEAAAAEAP//BAAAAAEAAAAFAP//BAAAAAEAAAAGAP//BAAAAAEAAAAHAP//BAAAAAEAAAAIAP//BAAAAAEAAAAJAP//BAAAAAEAAAAKAP//BAAAAAEAAAALAP//BAAAAAEAAAAMAP//BAAAAAEAAAANAP//BAAAAAEAAAA=")
+tile_set = SubResource("TileSet_083m7")
+
+[node name="decoraçãoL" type="TileMapLayer" parent="cenariu/talisMap"]
+use_parent_material = true
+tile_map_data = PackedByteArray("AAAAAAIABQAAAAIAAAACAAIABQAAAAIAAAAEAAIABQAAAAIAAAAGAAIABQAAAAIAAAAIAAIABQAAAAIAAAAKAAIABQAAAAIAAAAMAAIABQAAAAIAAAAAAAUABQABAAQAAAAAAAYABQABAAUAAAABAAUABQACAAQAAAABAAYABQACAAUAAAACAAUABQADAAQAAAACAAYABQADAAUAAAADAAUABQAEAAQAAAADAAYABQAEAAUAAAAEAAUABQAFAAQAAAAEAAYABQAFAAUAAAAFAAUABQAGAAQAAAAFAAYABQAGAAUAAAAGAAUABQAHAAQAAAAGAAYABQAHAAUAAAAIAAQABQABAAQAAAAJAAQABQACAAQAAAAIAAUABQAAAAQAAAAIAAYABQAAAAUAAAA=")
+tile_set = SubResource("TileSet_083m7")
+
+[node name="COLIÇÃO" type="Node2D" parent="cenariu"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="cenariu/COLIÇÃO"]
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cenariu/COLIÇÃO/StaticBody2D"]
+position = Vector2(486, 234)
+shape = SubResource("RectangleShape2D_ojabw")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="cenariu/COLIÇÃO"]
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cenariu/COLIÇÃO/StaticBody2D2"]
+position = Vector2(435, 177)
+rotation = -1.5593
+shape = SubResource("RectangleShape2D_ojabw")
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="cenariu/COLIÇÃO"]
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cenariu/COLIÇÃO/StaticBody2D3"]
+position = Vector2(-7, 224)
+rotation = -1.5593
+shape = SubResource("RectangleShape2D_ojabw")
+
+[node name="AreaDaPorta" parent="cenariu/COLIÇÃO" instance=ExtResource("1_3mlhw")]
+z_index = 1
+position = Vector2(271, 204)
+collision_layer = 8
+collision_mask = 10
+porta = "res://Scenes/cena_2.tscn"
+
+[node name="mobile buttons" parent="cenariu" instance=ExtResource("8_3s75g")]
+
+[node name="NPC" type="Node" parent="."]
+
+[node name="IAdemar" parent="NPC" node_paths=PackedStringArray("hud") instance=ExtResource("8_kaqyb")]
+position = Vector2(367, 203)
+collision_mask = 2
+hud = NodePath("../hud")
+
+[node name="hud" type="CanvasLayer" parent="NPC"]
+
+[node name="Player" parent="." instance=ExtResource("7_1rlms")]
+z_index = 2
+position = Vector2(243, 201)
+collision_mask = 15
+velovi = 80.0
+
+[node name="menu" type="CanvasLayer" parent="."]
+
+[node name="MainMenu" parent="menu" instance=ExtResource("10_x8cpn")]
+visible = false
+
+[node name="muisc" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("11_hoti6")
+autoplay = true
+bus = &"Music"
+parameters/looping = true

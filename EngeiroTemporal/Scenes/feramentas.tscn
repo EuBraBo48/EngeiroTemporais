@@ -1,0 +1,55 @@
+[gd_scene load_steps=7 format=3 uid="uid://civjclcg8wkcb"]
+
+[ext_resource type="Script" path="res://Scrips/feramenta.gd" id="1_frfpd"]
+[ext_resource type="Texture2D" uid="uid://bisunwjbsgqiy" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/obejtos/Engrenagem.png" id="2_ysqqu"]
+[ext_resource type="AudioStream" uid="uid://c2ui1b76x3r0j" path="res://Sprits/DesenhosDoJogoEngeirosTemporais/audio/selecionar-1.ogg" id="3_327uf"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_4qies"]
+radius = 19.105
+
+[sub_resource type="Curve" id="Curve_lq3dr"]
+min_value = -200.0
+max_value = 200.0
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, -186.415), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Curve" id="Curve_0nra5"]
+min_value = -200.0
+max_value = 200.0
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, -200), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[node name="Ferementa" type="Area2D"]
+script = ExtResource("1_frfpd")
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_4qies")
+
+[node name="Engrenagem" type="Sprite2D" parent="."]
+texture = ExtResource("2_ysqqu")
+
+[node name="Audio" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_327uf")
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+emitting = false
+amount = 100
+one_shot = true
+explosiveness = 1.0
+fract_delta = false
+local_coords = true
+direction = Vector2(-1, 0)
+spread = 180.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 143.75
+initial_velocity_max = 195.83
+angular_velocity_min = -390.0
+angular_velocity_max = -390.0
+radial_accel_curve = SubResource("Curve_lq3dr")
+tangential_accel_curve = SubResource("Curve_0nra5")
+angle_min = -90.0
+angle_max = -90.0
+scale_amount_min = 2.0
+scale_amount_max = 2.0
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

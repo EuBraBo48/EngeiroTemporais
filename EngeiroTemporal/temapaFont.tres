@@ -1,0 +1,23 @@
+[gd_resource type="Theme" load_steps=6 format=3 uid="uid://bt4jyiv00rn2r"]
+
+[ext_resource type="FontFile" uid="uid://mriu62pgl3mb" path="res://Sprits/MatchupPro.otf" id="1_ehypd"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_qc77x"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_nki86"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_58pi7"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ifmnt"]
+
+[resource]
+Button/colors/font_focus_color = Color(0.0117647, 0.501961, 0.654902, 1)
+Button/colors/font_hover_color = Color(0.0221243, 0.497666, 0.667578, 1)
+Button/colors/font_hover_pressed_color = Color(0.0221243, 0.497666, 0.667578, 1)
+Button/colors/font_pressed_color = Color(0.109961, 0.107119, 0.573314, 1)
+Button/font_sizes/font_size = 20
+Button/fonts/font = ExtResource("1_ehypd")
+Button/styles/focus = SubResource("StyleBoxEmpty_qc77x")
+Button/styles/hover = SubResource("StyleBoxEmpty_nki86")
+Button/styles/normal = SubResource("StyleBoxEmpty_58pi7")
+Button/styles/pressed = SubResource("StyleBoxEmpty_ifmnt")

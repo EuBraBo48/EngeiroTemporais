@@ -1,0 +1,40 @@
+res://Scenes/chefes/NPC/chef_1.tscn::8aa1f32fbe9c5a6eb4b8860f82395a12::1730657735::res://.godot/exported/133200997/export-4ceb8827d1a76fe1f3e6aeb84a9ccc73-chef_1.scn
+res://Scenes/chefes/NPC/chef_2.tscn::ecbe30ec2c2185d187f04353bbef20d5::1730657750::res://.godot/exported/133200997/export-721a736338be1fc48cc41a5ec2ce7da9-chef_2.scn
+res://Scenes/chefes/NPC/chef_3.tscn::5eb08489f009bbcf178527ee01be1395::1730657746::res://.godot/exported/133200997/export-d7cdea6316145522e83bd604910b2f86-chef_3.scn
+res://Scenes/chefes/NPC/chef_4.tscn::b9c10151150c1ec29a86e28f92068f72::1730657740::res://.godot/exported/133200997/export-41818b7c0fe90aba441085939ea41400-chef_4.scn
+res://Scenes/chefes/cena_chef_1.tscn::bd57bdb717ac0a67a80f204e86a53d09::1730864074::res://.godot/exported/133200997/export-eb560ac6b54cf29633e23e0c47d0e599-cena_chef_1.scn
+res://Scenes/chefes/cena_chef_2.tscn::f6c5d94c19f4f34f8d67f50578fa2dda::1730864076::res://.godot/exported/133200997/export-fce785443cce727bbbf5da7c681a4a7e-cena_chef_2.scn
+res://Scenes/chefes/cena_chef_3.tscn::936aec6a53b7e4e413e7d1fcdde33341::1730864077::res://.godot/exported/133200997/export-c9794e97a0a76544bbcc2877b9371d02-cena_chef_3.scn
+res://Scenes/chefes/cena_chef_4.tscn::36121e416de2def11e3e6d294239099c::1730864077::res://.godot/exported/133200997/export-2bde51b3862a1c0fc26302d9023d9039-cena_chef_4.scn
+res://Scenes/chefes/missaoDosChfes.tscn::f89aee868318085d5c2121fb9d3893b6::1730754129::res://.godot/exported/133200997/export-703d5863a0570ea539f3833d03a00011-missaoDosChfes.scn
+res://Scenes/animigo_1.tscn::e85fa2b71072bad379b4b97b6c399c2a::1730658427::res://.godot/exported/133200997/export-2a7ec85d95c0bcd3e1a142f81ad1f923-animigo_1.scn
+res://Scenes/area_da_porta.tscn::039a9c3e2984ca7ada55973ad33e7ff8::1730754142::res://.godot/exported/133200997/export-8d4519e6df5efbac968791283741bcb7-area_da_porta.scn
+res://Scenes/arma.tscn::fbb2943a1a9e914c82eec8b3a8d87162::1730808295::res://.godot/exported/133200997/export-7301cfdff29139b2627057888e01a6da-arma.scn
+res://Scenes/bala.tscn::3c1364082fca9763d5d6586fb3463ce0::1730808445::res://.godot/exported/133200997/export-1fac0dceacb9fb00ee6626081ffacb4e-bala.scn
+res://Scenes/cana_do_inimigo_1.tscn::2f0bf7e989c9e5802658809adf2fea26::1730864075::res://.godot/exported/133200997/export-72f05a337415c216c64734bb0c9d661f-cana_do_inimigo_1.scn
+res://Scenes/cana_do_inimigo_2.tscn::f6bbf7bd02dfa885af4f60e05b749260::1730864074::res://.godot/exported/133200997/export-c2de929a90d0a8f9373e649d3ea0f4e2-cana_do_inimigo_2.scn
+res://Scenes/cana_do_inimigo_3.tscn::ec55c3b8bca791a87a34b7fefdfd4626::1730864075::res://.godot/exported/133200997/export-21c7dac644fc0dbb0b19ffe4246d43a6-cana_do_inimigo_3.scn
+res://Scenes/cena_1.tscn::1ed1a5a35d17fde843890c08f13405d7::1730754179::res://.godot/exported/133200997/export-dd289442739aef80a52de48d9f57df90-cena_1.scn
+res://Scenes/cena_2.tscn::74c5545e164b3be2b56ba4dfd2120612::1730808445::res://.godot/exported/133200997/export-1ad7d56c116a2004e920535410c97761-cena_2.scn
+res://Scenes/cutsceane2.tscn::8952ab2eefc338269322aa0b3e9a912d::1730754044::res://.godot/exported/133200997/export-5a16e4d02833dee4de363e001f191d3c-cutsceane2.scn
+res://Scenes/cutsceane.tscn::98f3a59b90d5814644c6c136582c482e::1730754044::res://.godot/exported/133200997/export-73e059606db7da21f27fe24f8fe4763e-cutsceane.scn
+res://Scenes/dialogo_secre.tscn::7ba9bbbaa15471cb8ccbfc818d16d010::1730660731::res://.godot/exported/133200997/export-feb8e9851a43dcec48944718360db42d-dialogo_secre.scn
+res://Scenes/feramentas.tscn::e70771f0c78f9d63ad01d11094d29366::1730808445::res://.godot/exported/133200997/export-a54746ab66958b35cd2a084ad783c82c-feramentas.scn
+res://Scenes/fundo 1.tscn::7ebcf8f594cf9c5f9f4491af5ed8c14c::1730662101::res://.godot/exported/133200997/export-7ab76ad56268b0be8833a2539c2e5dcf-fundo 1.scn
+res://Scenes/game_overl.tscn::5498cc4037d000eac86380e571db5f07::1730657591::res://.godot/exported/133200997/export-5ebb03a44a53350cb52014dc851dc507-game_overl.scn
+res://Scenes/historia.tscn::2468d9b6a94f2bf409524256637af49a::1730754043::res://.godot/exported/133200997/export-5867bbe855324774df5ad0f1910c8c6d-historia.scn
+res://Scenes/historia_fimal.tscn::f5d06ac21a47cc3be635ac7d4664ef89::1730754044::res://.godot/exported/133200997/export-b20faf52cfbfe4e2b942825681421895-historia_fimal.scn
+res://Scenes/hud.tscn::b6a3108a8bfc957c381b9d17c6e24e43::1730662158::res://.godot/exported/133200997/export-885e17d6a23b453de5b281f1a900d8bb-hud.scn
+res://Scenes/IAdemar.tscn::a5996d455f028269896241d9589dd7ab::1730661311::res://.godot/exported/133200997/export-2e47bcbec2c9612dbbfedd4d9c5a348d-IAdemar.scn
+res://Scenes/inimigo_2.tscn::0055c83b2ee78f8b760d0e5e445a7a54::1730658427::res://.godot/exported/133200997/export-972502f6f642115f347c4380bb8c700a-inimigo_2.scn
+res://Scenes/maquina_do_tempo.tscn::71d8c3cebdf18920aa639212791d8dfe::1730657667::res://.godot/exported/133200997/export-68e6a31f544817c9310d1dae4f52c8f5-maquina_do_tempo.scn
+res://Scenes/menu.tscn::783d3336bca34c9296ef04707d2d5b1d::1730864072::res://.godot/exported/133200997/export-53a0af8f00fbc899d4d541c34a803049-menu.scn
+res://Scenes/missao.tscn::55867afece0b22630bf823b9fff5ba24::1730754115::res://.godot/exported/133200997/export-cd0f73592d4b7000076ef94449cf693c-missao.scn
+res://Scenes/mobile_buttons.tscn::7919dd42d988e58b6695fa33704719cd::1730808444::res://.godot/exported/133200997/export-3076916527d382b79776506830fcd830-mobile_buttons.scn
+res://Scenes/Platafoma.tscn::55d5d2035550116c356f84ecee58c6cd::1730657665::res://.godot/exported/133200997/export-985a6f189747c946d8cd552b3a6f9280-Platafoma.scn
+res://Scenes/plataforma que sobe.tscn::31ead5f15847f9647eaf3160ef7c5ae1::1730657642::res://.godot/exported/133200997/export-fcd8b98bb958ad490f3ba1f4918fd84e-plataforma que sobe.scn
+res://Scenes/plataforma superior E.tscn::23e6406736924380185549bba62514a9::1730657634::res://.godot/exported/133200997/export-0f142a510e2f7eca2a102efebcf5c8ae-plataforma superior E.scn
+res://Scenes/player.tscn::7cb511a87ab7070aa9b1b3a0338f86f7::1730657600::res://.godot/exported/133200997/export-1753c997600d68ab5d20ae99fddb15c6-player.scn
+res://default_bus_layout.tres::f9043ba2b70d1b7197d0eae01628349a::1730226616::res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res
+res://temapaFont.tres::937d24afe0123e196808c5db2b78e954::1730226616::res://.godot/exported/133200997/export-893257676c5728a8bb88364e65723b7b-temapaFont.res
+res://temasDocehs.tres::186b36e5dcc7bc195c53d2efb31dcc88::1730751367::res://.godot/exported/133200997/export-ad71ee59562df97f076d97d799ce6004-temasDocehs.res
